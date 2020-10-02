@@ -1,0 +1,54 @@
+[
+  {
+    "id": "filter_bar.select_property",
+    "defaultMessage": "Select Property"
+  },
+  {
+    "id": "filter_bar.benchmark",
+    "defaultMessage": "Benchmark"
+  },
+  {
+    "id": "filter_bar.saved_segmentation",
+    "defaultMessage": "Saved Segmentation"
+  },
+  {
+    "id": "filter_bar.country",
+    "defaultMessage": "Country"
+  },
+  {
+    "id": "filter_bar.title",
+    "defaultMessage": "SEGMENTATION"
+  },
+  {
+    "id": "filter_bar.age_gender",
+    "defaultMessage": "Age & Gender"
+  },
+  {
+    "id": "filter_bar.gender_men",
+    "defaultMessage": "Men"
+  },
+  {
+    "id": "filter_bar.gender_women",
+    "defaultMessage": "Women"
+  },
+  {
+    "id": "filter_bar.income",
+    "defaultMessage": "Income"
+  },
+  {
+    "id": "filter_bar.kids_n_home",
+    "defaultMessage": "Kids in Household"
+  },
+  {
+    "id": "filter_bar.interest_level",
+    "defaultMessage": "Interest Level"
+  },
+  {
+    "id": "filter_bar.not_interested",
+    "defaultMessage": "Not Interested"
+  },
+  {
+    "id": "filter_bar.interested",
+    "defaultMessage": "Very Interested"
+  }
+]

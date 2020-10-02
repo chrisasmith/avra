@@ -1,0 +1,14 @@
+[
+  {
+    "id": "dashboard_graph.total",
+    "defaultMessage": "Total"
+  },
+  {
+    "id": "dashboard_graph.see_more",
+    "defaultMessage": "See More Results"
+  },
+  {
+    "id": "dashboard_graph.see_less",
+    "defaultMessage": "See Less Results"
+  }
+]

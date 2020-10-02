@@ -1,0 +1,14 @@
+[
+  {
+    "id": "dashboard_shell.loading",
+    "defaultMessage": "Loading..."
+  },
+  {
+    "id": "dashboard_shell.download_jpg",
+    "defaultMessage": "Download .jpg"
+  },
+  {
+    "id": "dashboard_shell.download_csv",
+    "defaultMessage": "Download csv"
+  }
+]

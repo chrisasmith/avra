@@ -1,0 +1,383 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Industries Tab should show 1`] = `
+<div
+  className="grid"
+>
+  <div>
+    <IndustryBreadcrumb
+      industry={null}
+      params={Object {}}
+    />
+  </div>
+  <div
+    className="breadCrumb"
+  >
+    <FilterBreadCrumb
+      filter={
+        Object {
+          "benchmark": Object {
+            "name": "benchmark",
+          },
+          "property": Object {
+            "name": "property",
+          },
+        }
+      }
+    />
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="row row-grid"
+    >
+      <div
+        className="col-12"
+      >
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "title": " Overview",
+                "value": "Placeholder",
+              },
+              "type": "STRING",
+            }
+          }
+          data={null}
+          isFetching={false}
+          key="0"
+        />
+      </div>
+      <div
+        className="col-6"
+      >
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "description": "Which of the following products do you currently own or have you bought recently?",
+                "title": "Top Products",
+              },
+              "dataKey": "top_partners",
+              "type": "INDEX",
+            }
+          }
+          data={null}
+          isFetching={false}
+          key="0"
+        />
+      </div>
+      <div
+        className="col-6"
+      >
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "description": "Make of any vehicle owned or leased",
+                "scarborough": true,
+                "title": "Auto Ownership",
+              },
+              "dataKey": "auto_ownership",
+              "hide": true,
+              "type": "INDEX",
+            }
+          }
+          data={null}
+          isFetching={false}
+          key="0"
+        />
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "scarborough": true,
+                "title": "Beer Consumed in Last 30 Days",
+              },
+              "dataKey": "beer",
+              "hide": true,
+              "type": "INDEX",
+            }
+          }
+          data={null}
+          isFetching={false}
+          key="1"
+        />
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "scarborough": true,
+                "title": "Soft Drinks Consumed in Last 7 Days",
+              },
+              "dataKey": "soft_drinks",
+              "hide": true,
+              "type": "INDEX",
+            }
+          }
+          data={null}
+          isFetching={false}
+          key="2"
+        />
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "scarborough": true,
+                "title": "Telephone Service Providers",
+              },
+              "dataKey": "telephone_service_providers",
+              "hide": true,
+              "type": "INDEX",
+            }
+          }
+          data={null}
+          isFetching={false}
+          key="3"
+        />
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "scarborough": true,
+                "title": "Current Wireless/Cell Phone Carriers",
+              },
+              "dataKey": "wireless_phone_carriers",
+              "hide": true,
+              "type": "INDEX",
+            }
+          }
+          data={null}
+          isFetching={false}
+          key="4"
+        />
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "scarborough": true,
+                "title": "Internet Service Providers",
+              },
+              "dataKey": "internet_services",
+              "hide": true,
+              "type": "INDEX",
+            }
+          }
+          data={null}
+          isFetching={false}
+          key="5"
+        />
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "scarborough": true,
+                "title": "Cable/TV Service Provider",
+              },
+              "dataKey": "cable_tv",
+              "hide": true,
+              "type": "INDEX",
+            }
+          }
+          data={null}
+          isFetching={false}
+          key="6"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Industries Tab should show loading 1`] = `
+<div
+  className="grid"
+>
+  <div>
+    <IndustryBreadcrumb
+      industry={null}
+      params={Object {}}
+    />
+  </div>
+  <div
+    className="breadCrumb"
+  >
+    <FilterBreadCrumb
+      filter={
+        Object {
+          "benchmark": Object {
+            "name": "benchmark",
+          },
+          "property": Object {
+            "name": "property",
+          },
+        }
+      }
+    />
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="row row-grid"
+    >
+      <div
+        className="col-12"
+      >
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "title": " Overview",
+                "value": "Placeholder",
+              },
+              "type": "STRING",
+            }
+          }
+          data={null}
+          isFetching={true}
+          key="0"
+        />
+      </div>
+      <div
+        className="col-6"
+      >
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "description": "Which of the following products do you currently own or have you bought recently?",
+                "title": "Top Products",
+              },
+              "dataKey": "top_partners",
+              "type": "INDEX",
+            }
+          }
+          data={null}
+          isFetching={true}
+          key="0"
+        />
+      </div>
+      <div
+        className="col-6"
+      >
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "description": "Make of any vehicle owned or leased",
+                "scarborough": true,
+                "title": "Auto Ownership",
+              },
+              "dataKey": "auto_ownership",
+              "hide": true,
+              "type": "INDEX",
+            }
+          }
+          data={null}
+          isFetching={true}
+          key="0"
+        />
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "scarborough": true,
+                "title": "Beer Consumed in Last 30 Days",
+              },
+              "dataKey": "beer",
+              "hide": true,
+              "type": "INDEX",
+            }
+          }
+          data={null}
+          isFetching={true}
+          key="1"
+        />
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "scarborough": true,
+                "title": "Soft Drinks Consumed in Last 7 Days",
+              },
+              "dataKey": "soft_drinks",
+              "hide": true,
+              "type": "INDEX",
+            }
+          }
+          data={null}
+          isFetching={true}
+          key="2"
+        />
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "scarborough": true,
+                "title": "Telephone Service Providers",
+              },
+              "dataKey": "telephone_service_providers",
+              "hide": true,
+              "type": "INDEX",
+            }
+          }
+          data={null}
+          isFetching={true}
+          key="3"
+        />
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "scarborough": true,
+                "title": "Current Wireless/Cell Phone Carriers",
+              },
+              "dataKey": "wireless_phone_carriers",
+              "hide": true,
+              "type": "INDEX",
+            }
+          }
+          data={null}
+          isFetching={true}
+          key="4"
+        />
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "scarborough": true,
+                "title": "Internet Service Providers",
+              },
+              "dataKey": "internet_services",
+              "hide": true,
+              "type": "INDEX",
+            }
+          }
+          data={null}
+          isFetching={true}
+          key="5"
+        />
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "scarborough": true,
+                "title": "Cable/TV Service Provider",
+              },
+              "dataKey": "cable_tv",
+              "hide": true,
+              "type": "INDEX",
+            }
+          }
+          data={null}
+          isFetching={true}
+          key="6"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

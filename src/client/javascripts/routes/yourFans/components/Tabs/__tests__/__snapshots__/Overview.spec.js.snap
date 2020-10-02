@@ -1,0 +1,347 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Overview Tab should show 1`] = `
+<div
+  className="grid"
+>
+  <div
+    className="breadCrumb"
+  >
+    <FilterBreadCrumb
+      filter={
+        Object {
+          "benchmark": Object {
+            "name": "benchmark",
+          },
+          "property": Object {
+            "name": "property",
+          },
+        }
+      }
+    />
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="row row-grid"
+    >
+      <div
+        className="col-6"
+      >
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "description": "By Region",
+                "showTotal": true,
+                "sideTitle": "Regions",
+                "title": "Fan Population",
+                "type": "COUNT",
+              },
+              "dataKey": "region",
+              "type": "GRAPH",
+            }
+          }
+          data={null}
+          extra={
+            Object {
+              "benchmarkTitle": "benchmark",
+              "propertyTitle": "property",
+            }
+          }
+          isFetching={false}
+          key="0"
+        />
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "sideTitle": "Social media platforms",
+                "title": "Do you use any of the following social media platorms?",
+                "type": "PERCENT",
+              },
+              "dataKey": "social_media",
+              "type": "GRAPH",
+            }
+          }
+          data={null}
+          extra={
+            Object {
+              "benchmarkTitle": "benchmark",
+              "propertyTitle": "property",
+            }
+          }
+          isFetching={false}
+          key="1"
+        />
+      </div>
+      <div
+        className="col-6"
+      >
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "title": "Favorite Team",
+                "value": null,
+              },
+              "hide": true,
+              "type": "STRING",
+            }
+          }
+          data={null}
+          extra={
+            Object {
+              "benchmarkTitle": "benchmark",
+              "propertyTitle": "property",
+            }
+          }
+          isFetching={false}
+          key="0"
+        />
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "sideTitle": "Social media platforms",
+                "title": "Do you use any of the following social media platorms?",
+                "type": "PERCENT",
+              },
+              "dataKey": "social_media",
+              "type": "GRAPH",
+            }
+          }
+          data={null}
+          extra={
+            Object {
+              "benchmarkTitle": "benchmark",
+              "propertyTitle": "property",
+            }
+          }
+          isFetching={false}
+          key="1"
+        />
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "description": "How often do you use the following media for news about sports?",
+                "sideTitle": "Media",
+                "title": "Media Behavior",
+                "type": "PERCENT",
+              },
+              "dataKey": "media_behavior",
+              "type": "GRAPH",
+            }
+          }
+          data={null}
+          extra={
+            Object {
+              "benchmarkTitle": "benchmark",
+              "propertyTitle": "property",
+            }
+          }
+          isFetching={false}
+          key="2"
+        />
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "description": "Have you watched, attended or listened to events in the last 12 months?",
+                "title": "Fan Engagement",
+                "type": "PERCENT",
+              },
+              "dataKey": "fan_engagement",
+              "type": "GRAPH",
+            }
+          }
+          data={null}
+          extra={
+            Object {
+              "benchmarkTitle": "benchmark",
+              "propertyTitle": "property",
+            }
+          }
+          isFetching={false}
+          key="3"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Overview Tab should show loading 1`] = `
+<div
+  className="grid"
+>
+  <div
+    className="breadCrumb"
+  >
+    <FilterBreadCrumb
+      filter={
+        Object {
+          "benchmark": Object {
+            "name": "benchmark",
+          },
+          "property": Object {
+            "name": "property",
+          },
+        }
+      }
+    />
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="row row-grid"
+    >
+      <div
+        className="col-6"
+      >
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "description": "By Region",
+                "showTotal": true,
+                "sideTitle": "Regions",
+                "title": "Fan Population",
+                "type": "COUNT",
+              },
+              "dataKey": "region",
+              "type": "GRAPH",
+            }
+          }
+          data={null}
+          extra={
+            Object {
+              "benchmarkTitle": "benchmark",
+              "propertyTitle": "property",
+            }
+          }
+          isFetching={true}
+          key="0"
+        />
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "sideTitle": "Social media platforms",
+                "title": "Do you use any of the following social media platorms?",
+                "type": "PERCENT",
+              },
+              "dataKey": "social_media",
+              "type": "GRAPH",
+            }
+          }
+          data={null}
+          extra={
+            Object {
+              "benchmarkTitle": "benchmark",
+              "propertyTitle": "property",
+            }
+          }
+          isFetching={true}
+          key="1"
+        />
+      </div>
+      <div
+        className="col-6"
+      >
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "title": "Favorite Team",
+                "value": null,
+              },
+              "hide": true,
+              "type": "STRING",
+            }
+          }
+          data={null}
+          extra={
+            Object {
+              "benchmarkTitle": "benchmark",
+              "propertyTitle": "property",
+            }
+          }
+          isFetching={true}
+          key="0"
+        />
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "sideTitle": "Social media platforms",
+                "title": "Do you use any of the following social media platorms?",
+                "type": "PERCENT",
+              },
+              "dataKey": "social_media",
+              "type": "GRAPH",
+            }
+          }
+          data={null}
+          extra={
+            Object {
+              "benchmarkTitle": "benchmark",
+              "propertyTitle": "property",
+            }
+          }
+          isFetching={true}
+          key="1"
+        />
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "description": "How often do you use the following media for news about sports?",
+                "sideTitle": "Media",
+                "title": "Media Behavior",
+                "type": "PERCENT",
+              },
+              "dataKey": "media_behavior",
+              "type": "GRAPH",
+            }
+          }
+          data={null}
+          extra={
+            Object {
+              "benchmarkTitle": "benchmark",
+              "propertyTitle": "property",
+            }
+          }
+          isFetching={true}
+          key="2"
+        />
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "description": "Have you watched, attended or listened to events in the last 12 months?",
+                "title": "Fan Engagement",
+                "type": "PERCENT",
+              },
+              "dataKey": "fan_engagement",
+              "type": "GRAPH",
+            }
+          }
+          data={null}
+          extra={
+            Object {
+              "benchmarkTitle": "benchmark",
+              "propertyTitle": "property",
+            }
+          }
+          isFetching={true}
+          key="3"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

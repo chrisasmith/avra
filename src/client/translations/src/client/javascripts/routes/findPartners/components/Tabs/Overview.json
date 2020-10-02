@@ -1,0 +1,18 @@
+[
+  {
+    "id": "find_partners.tab.overview.top_products",
+    "defaultMessage": "Top Products"
+  },
+  {
+    "id": "find_partners.tab.overview.currently_own",
+    "defaultMessage": "Which of the following products do you currently own or have you bought recently?"
+  },
+  {
+    "id": "find_partners.tab.overview.top_services",
+    "defaultMessage": "Top Services"
+  },
+  {
+    "id": "find_partners.tab.overview.service_currently_use",
+    "defaultMessage": "Which of the following services do you currently use or have you used in the last 12 months? And which do you intend to use again in the next 12 months?"
+  }
+]

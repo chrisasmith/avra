@@ -1,0 +1,22 @@
+[
+  {
+    "id": "nav_bar.search",
+    "defaultMessage": "Search"
+  },
+  {
+    "id": "nav_bar.title",
+    "defaultMessage": "AVRA"
+  },
+  {
+    "id": "nav_bar.nav_your_fans",
+    "defaultMessage": "Your Fans"
+  },
+  {
+    "id": "nav_bar.nav_your_partners",
+    "defaultMessage": "Your Partners"
+  },
+  {
+    "id": "nav_bar.nav_find_partners",
+    "defaultMessage": "Find Partners"
+  }
+]

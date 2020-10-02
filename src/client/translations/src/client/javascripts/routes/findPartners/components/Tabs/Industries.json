@@ -1,0 +1,42 @@
+[
+  {
+    "id": "find_partners.tab.industries.top_products",
+    "defaultMessage": "Top Products"
+  },
+  {
+    "id": "find_partners.tab.industries.product_currently_own",
+    "defaultMessage": "Which of the following products do you currently own or have you bought recently?"
+  },
+  {
+    "id": "find_partners.tab.industries.auto_ownership",
+    "defaultMessage": "Auto Ownership"
+  },
+  {
+    "id": "find_partners.tab.industries.auto_ownership_desc",
+    "defaultMessage": "Make of any vehicle owned or leased"
+  },
+  {
+    "id": "find_partners.tab.industries.beer_consumed_30",
+    "defaultMessage": "Beer Consumed in Last 30 Days"
+  },
+  {
+    "id": "find_partners.tab.industries.soft_drinks",
+    "defaultMessage": "Soft Drinks Consumed in Last 7 Days"
+  },
+  {
+    "id": "find_partners.tab.industries.telephone_service_providers",
+    "defaultMessage": "Telephone Service Providers"
+  },
+  {
+    "id": "find_partners.tab.industries.wireless_phone_carriers",
+    "defaultMessage": "Current Wireless/Cell Phone Carriers"
+  },
+  {
+    "id": "find_partners.tab.industries.internet_services",
+    "defaultMessage": "Internet Service Providers"
+  },
+  {
+    "id": "find_partners.tab.industries.cable_tv",
+    "defaultMessage": "Cable/TV Service Provider"
+  }
+]

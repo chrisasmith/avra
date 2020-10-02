@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Your Fans reducer should handle GET_HOME_PAGE.SUCCESS 1`] = `Object {}`;

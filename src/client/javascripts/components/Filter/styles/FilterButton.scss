@@ -1,0 +1,10 @@
+@import '../../../../stylesheets/modules/theme.scss';
+
+.button {
+  color: #000077;
+
+  &:hover {
+    background-color: transparent;
+    color: $dark-gray-color;
+  }
+}

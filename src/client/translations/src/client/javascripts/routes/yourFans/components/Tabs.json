@@ -1,0 +1,26 @@
+[
+  {
+    "id": "your_fans.tabs.overview",
+    "defaultMessage": "Overview"
+  },
+  {
+    "id": "your_fans.tabs.interest",
+    "defaultMessage": "Interest Profile"
+  },
+  {
+    "id": "your_fans.tabs.media",
+    "defaultMessage": "Media Profile"
+  },
+  {
+    "id": "your_fans.tabs.social",
+    "defaultMessage": "Social Media"
+  },
+  {
+    "id": "your_fans.tabs.segment",
+    "defaultMessage": "Segmentation"
+  },
+  {
+    "id": "your_fans.tabs.trends",
+    "defaultMessage": "Trends"
+  }
+]

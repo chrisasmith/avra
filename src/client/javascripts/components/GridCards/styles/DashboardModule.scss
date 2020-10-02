@@ -1,0 +1,160 @@
+@import '../../../../stylesheets/modules/theme.scss';
+
+.module {
+  background-color: #fff;
+  border-radius: 6px;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  border: 1px solid darken($page-background, 5%);
+}
+
+.graphWrapper {
+  border-radius: 6px;
+  border: 1px solid darken($page-background, 5%);
+}
+
+.totalContainer, .graphContainer {
+  font-size: 15px;
+  background-color: $white-color;
+}
+
+.totalContainer {
+  margin-bottom: 8px;
+}
+
+.keys {
+  & div {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .benchKey, .valueKey {
+    width: 16px;
+    height: 16px;
+    background-color: #5071dc;
+    margin-right: 8px;
+  }
+
+  .benchKey {
+    margin-left: 16px;
+    background-color: #d3dcf6;
+  }
+}
+
+.graphHolder {
+  display: inline-flex;
+  width: 100%;
+
+  & > div {
+    display: inline-block;
+    width: 50px;
+
+    &:last-child {
+      width: 100%;
+    }
+  }
+
+  .rotatedTitle {
+    width: 16px;
+    margin-right: 16px;
+
+    .centered {
+      position: relative;
+      width: 110px;
+      top: 50%;
+      left: 50%;
+      transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
+      line-height: 16px;
+      font-size: 13px;
+      text-align: center;
+    }
+  }
+}
+
+.title {
+  margin: 0 24px;
+}
+
+.download {
+  float: right;
+  margin-right: 2px;
+  margin-top: 13px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.popup {
+  min-width: 130px;
+  padding: 8px 0px;
+
+  a {
+    color: $dark-gray-color;
+    display: block;
+    padding: 8px 16px;
+
+    &:hover {
+      color: $white-color;
+      background-color: #ccc;
+      text-decoration: none;
+    }
+  }
+}
+
+.seeMoreLink {
+  text-align: right;
+  margin-right: 16px;
+  margin-bottom: 11px;
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+.source {
+  text-align: left;
+  float: left;
+  margin-bottom: 11px;
+  font-size: 14px;
+  margin-left: 16px;
+}
+
+.stringValue {
+  background-color: #fff;
+}
+
+.line {
+  height: 1px;
+  border-bottom: 1px solid #e0e0e0;;
+  margin-left: 116px;
+  width: calc(100% - 35px - 116px);
+  position: relative;
+  margin-top: 26px;
+  margin-bottom: 8px;
+}
+
+.indicatorLine {
+  height: 20px;
+  background-color: #c0c0c0;
+  width: 1px;
+  margin-top: -10px;
+  position: absolute;
+  left: 50%;
+}
+
+.indicatorNumber {
+  position: absolute;
+  left: 50%;
+  margin-left: -2px;
+  margin-top: 6px;
+}
+
+.dropdown {
+  text-align: center;
+  margin-bottom: 16px;
+
+  select {
+    display: inline-block;
+    width: 200px;
+  }
+}

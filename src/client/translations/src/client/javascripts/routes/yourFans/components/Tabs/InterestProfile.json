@@ -1,0 +1,18 @@
+[
+  {
+    "id": "your_fans.tab.interest.areas_title",
+    "defaultMessage": "Interest Areas"
+  },
+  {
+    "id": "your_fans.tab.interest.areas_side",
+    "defaultMessage": "Interest areas"
+  },
+  {
+    "id": "your_fans.tab.interest.additional",
+    "defaultMessage": "Additional Interests"
+  },
+  {
+    "id": "your_fans.tab.interest.sports_area",
+    "defaultMessage": "Sports Interest Areas"
+  }
+]

@@ -1,0 +1,135 @@
+// test data
+
+export default {
+  property: {
+    team: {
+      favorite: 50.44,
+    },
+  },
+  region: {
+    total: 324640000000,
+    values: [
+      { title: 'China', values: [86310000, 80700000] },
+      { title: 'India', values: [35100000, 33900000] },
+      { title: 'USA', values: [29600000, 25400000] },
+      { title: 'Netherlands', values: [19600000, 35400000] },
+      { title: 'Canada', values: [12600000, 25400000] },
+      { title: 'Germany', values: [52600000, 55400000] },
+      { title: 'I\'m really long and should wrap and i\'m long', values: [80000000, 25400000] },
+    ],
+    key: '# of fans in {}',
+  },
+  media_behavior: {
+    values: [
+      { title: 'TV', values: [72, 49] },
+      { title: 'Radio', values: [48, 39] },
+      { title: 'Newspapers', values: [39, 35] },
+      { title: 'Magazines', values: [22, 26] },
+      { title: 'General Websites', values: [30, 31] },
+      { title: 'Team / League / Event Sites', values: [45, 20] },
+      { title: 'Apps', values: [40, 30] },
+      { title: 'Email', values: [15, 10] },
+      { title: 'Podcast', values: [10, 8] },
+      { title: 'Social Media', values: [50, 45] },
+      { title: 'Social Messaging', values: [20, 15] },
+      { title: 'Streaming Video', values: [30, 35] },
+    ],
+    key: 'Respondents answering "regularly" or "sometimes"',
+  },
+  sport_media: {
+    values: [
+      { title: 'Free to air TV', values: [52, 49] },
+      { title: 'Pay TV', values: [48, 39] },
+      { title: 'Streaming platforms', values: [39, 35] },
+    ],
+    key: 'Respondents answering "regularly" or "sometimes"',
+  },
+  while_watching: {
+    values: [
+      { title: 'Check / write email', values: [52, 49] },
+      { title: 'Live betting on sports', values: [48, 39] },
+      { title: 'Play games online', values: [39, 35] },
+      { title: 'Talk on the phone', values: [29, 25] },
+      { title: 'Use apps', values: [55, 65] },
+      { title: 'Social media', values: [50, 54] },
+    ],
+    key: 'Respondents answering "regularly" or "sometimes"',
+  },
+  social_media: {
+    values: [
+      { title: 'Facebook', values: [75, 60] },
+      { title: 'Google+', values: [3, 2] },
+      { title: 'Instagram', values: [50, 44] },
+      { title: 'Snapchat', values: [22, 20] },
+      { title: 'Twitch', values: [15, 12] },
+      { title: 'Twitter', values: [25, 24] },
+      { title: 'WhatsApp', values: [12, 10] },
+      { title: 'YouTube', values: [40, 38] },
+    ],
+    key: '% fans of each answer',
+  },
+  fan_engagement: {
+    values: [
+      { title: 'Watched', values: [75, 65] },
+      { title: 'Attended', values: [63, 59] },
+      { title: 'Listened to', values: [50, 100] },
+    ],
+    key: '% of fans for each answer',
+  },
+  interest_areas: {
+    values: [
+      { title: 'Arts and culture in general', values: [47.0, 20] },
+      { title: 'Attending art shows / festivals', values: [37.8, 30] },
+      { title: 'Attending fashion shows', values: [24.0, 100] },
+      { title: 'Attending music concerts', values: [46.3, 13] },
+      { title: 'Attending music festivals', values: [44.4, 15] },
+      { title: 'Attending professional sports events', values: [37.9, 22] },
+      { title: 'Beauty pageants', values: [19.5, 19] },
+      { title: 'Comedy events/festivals', values: [40.5, 75] },
+      { title: 'Cooking', values: [60.5, 44] },
+      { title: 'Dining out', values: [69.2, 33] },
+      { title: 'Food / Taste festivals', values: [52.9, 21] },
+      { title: 'Environmental protection', values: [52.4, 10] },
+      { title: 'Listening to music', values: [75.2, 94] },
+    ],
+    key: '% of respondents',
+  },
+  additional_interests: {
+    values: [
+      { title: 'CrossFit Events', values: [5, 4] },
+      { title: 'Daily / Weekly Fantasy Sports', values: [22, 25] },
+      { title: 'Esports', values: [19, 18] },
+      { title: 'Obstacle Course Events', values: [5, 6] },
+      { title: 'Online Gaming', values: [45, 55] },
+      { title: 'Poker', values: [12, 11] },
+      { title: 'VR / AR gaming', values: [3, 4] },
+      { title: 'Seasonal Fantasy Sports', values: [10, 9] },
+    ],
+    key: '% of respondents',
+  },
+  sports_interest_areas: {
+    values: [
+      { title: 'Athletics / track and field', values: [33.6, 28.5] },
+      { title: 'Badminton', values: [30.3, 33.1] },
+      { title: 'Baseball', values: [22.1, 10.9] },
+      { title: 'Basketball', values: [37.5, 25.5] },
+      { title: 'Cricket', values: [19.6, 40.2] },
+      { title: 'Cycling', values: [27.2, 35.0] },
+      { title: 'Football / soccer', values: [45.4, 99.3] },
+    ],
+    key: '% of respondents',
+  },
+  media_interacting: {
+    values: [
+      { title: 'Sports news sites / apps', values: [44, 10] },
+      { title: 'League site / apps', values: [22, 44] },
+      { title: 'Team site / app', values: [10, 23] },
+      { title: 'Team social media', values: [19, 87] },
+      { title: 'Player social media', values: [100, 34] },
+      { title: 'Watching games on TV', values: [34, 82] },
+      { title: 'Watching games online', values: [77, 22] },
+      { title: 'None of these / Don’t know', values: [86, 2] },
+    ],
+    key: '% of respondents',
+  },
+}

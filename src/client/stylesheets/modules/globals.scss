@@ -1,0 +1,27 @@
+@import "./theme.scss";
+
+:global {
+  html {
+    height: 100%;
+  }
+
+  body {
+    font-family: $font-family;
+    color: $dark-gray-color;
+    min-width: $page-min-width;
+    background-color: $page-background;
+    height: 100%;
+  }
+
+  .fullHeight, #react-wrapper {
+    height: 100%;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .popover-body {
+    padding: 0;
+  }
+}

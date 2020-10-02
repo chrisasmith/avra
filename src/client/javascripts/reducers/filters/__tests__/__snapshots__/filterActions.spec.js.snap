@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterActions actions Should update the filter 1`] = `
+Object {
+  "filter": Object {
+    "filter": Object {
+      "item": true,
+    },
+  },
+  "type": "UPDATE_FILTER",
+}
+`;
+
+exports[`FilterActions actions should call save filter 1`] = `
+Array [
+  Object {
+    "request": Object {
+      "filter": undefined,
+      "filterName": Object {},
+    },
+    "type": "SAVE_FILTER_REQUEST",
+  },
+  Object {
+    "request": Object {
+      "filter": undefined,
+      "filterName": Object {},
+    },
+    "response": Object {
+      "data": Array [],
+    },
+    "type": "SAVE_FILTER_SUCCESS",
+  },
+]
+`;

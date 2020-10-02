@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components FilterBreadCrumb should render 1`] = `
+<div
+  class="breadcrumb"
+>
+  <div>
+    <span
+      class="label"
+    >
+      Segmented by:
+    </span>
+    <span>
+      None
+    </span>
+  </div>
+  <div>
+    <span
+      class="label"
+    >
+      Benchmark:
+    </span>
+    <span>
+      All Sports Fans
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Components FilterBreadCrumb should render age 1`] = `
+<div
+  class="breadcrumb"
+>
+  <div>
+    <span
+      class="label"
+    >
+      Segmented by:
+    </span>
+    <span>
+      Age & gender
+    </span>
+  </div>
+  <div>
+    <span
+      class="label"
+    >
+      Benchmark:
+    </span>
+    <span>
+      All Sports Fans
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Components FilterBreadCrumb should render all of them 1`] = `
+<div
+  class="breadcrumb"
+>
+  <div>
+    <span
+      class="label"
+    >
+      Segmented by:
+    </span>
+    <span>
+      Country, Age & gender, Income, Kids in household, Interest level
+    </span>
+  </div>
+  <div>
+    <span
+      class="label"
+    >
+      Benchmark:
+    </span>
+    <span>
+      All Sports Fans
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Components FilterBreadCrumb should render country 1`] = `
+<div
+  class="breadcrumb"
+>
+  <div>
+    <span
+      class="label"
+    >
+      Segmented by:
+    </span>
+    <span>
+      Country
+    </span>
+  </div>
+  <div>
+    <span
+      class="label"
+    >
+      Benchmark:
+    </span>
+    <span>
+      All Sports Fans
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Components FilterBreadCrumb should render income 1`] = `
+<div
+  class="breadcrumb"
+>
+  <div>
+    <span
+      class="label"
+    >
+      Segmented by:
+    </span>
+    <span>
+      Income
+    </span>
+  </div>
+  <div>
+    <span
+      class="label"
+    >
+      Benchmark:
+    </span>
+    <span>
+      All Sports Fans
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Components FilterBreadCrumb should render interest 1`] = `
+<div
+  class="breadcrumb"
+>
+  <div>
+    <span
+      class="label"
+    >
+      Segmented by:
+    </span>
+    <span>
+      Interest level
+    </span>
+  </div>
+  <div>
+    <span
+      class="label"
+    >
+      Benchmark:
+    </span>
+    <span>
+      All Sports Fans
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Components FilterBreadCrumb should render kids 1`] = `
+<div
+  class="breadcrumb"
+>
+  <div>
+    <span
+      class="label"
+    >
+      Segmented by:
+    </span>
+    <span>
+      Kids in household
+    </span>
+  </div>
+  <div>
+    <span
+      class="label"
+    >
+      Benchmark:
+    </span>
+    <span>
+      All Sports Fans
+    </span>
+  </div>
+</div>
+`;

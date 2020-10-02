@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App components nav should render 1`] = `
+<nav
+  className="navbar navBar"
+>
+  <a
+    className="navbar-brand"
+    href="#"
+  >
+    AVRA
+  </a>
+  <Link
+    className="nav-link"
+    onlyActiveOnIndex={false}
+    style={Object {}}
+    to="/your_fans"
+  >
+    Your Fans
+  </Link>
+  <Link
+    className="nav-link"
+    onlyActiveOnIndex={false}
+    style={Object {}}
+    to="/your_partners"
+  >
+    Your Partners
+  </Link>
+  <Link
+    className="nav-link"
+    onlyActiveOnIndex={false}
+    style={Object {}}
+    to="/find_partners"
+  >
+    Find Partners
+  </Link>
+  <form
+    className="form-inline"
+  >
+    <input
+      aria-label="Search"
+      className="form-control form-control-lg"
+      placeholder="Search"
+      type="search"
+    />
+  </form>
+  <a
+    className="nav-link"
+    href="#"
+  >
+    Jane Doe
+  </a>
+</nav>
+`;

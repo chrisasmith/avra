@@ -1,0 +1,26 @@
+[
+  {
+    "id": "your_fans.tab.media.premier_league",
+    "defaultMessage": "Interacting with Premier League"
+  },
+  {
+    "id": "your_fans.tab.media.use_to_follow",
+    "defaultMessage": "Which of the following do you use to interact with or follow the Premier League or your favorite Premier League team?"
+  },
+  {
+    "id": "your_fans.tab.media.activities",
+    "defaultMessage": "Activities"
+  },
+  {
+    "id": "your_fans.tab.media.watching",
+    "defaultMessage": "Sport Watching"
+  },
+  {
+    "id": "your_fans.tab.media.while_watching",
+    "defaultMessage": "While Watching Sports"
+  },
+  {
+    "id": "your_fans.tab.media.how_often",
+    "defaultMessage": "How often do you do the following?"
+  }
+]

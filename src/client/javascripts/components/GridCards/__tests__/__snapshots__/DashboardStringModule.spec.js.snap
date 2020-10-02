@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DashboardStringModule Component Should show 1`] = `
+<DashboardShellModule
+  isFetching={false}
+  onDownloadImage={[Function]}
+  title="title"
+>
+  <h1
+    className="mt-3 mb-3 text-center stringValue"
+  >
+    hi
+  </h1>
+</DashboardShellModule>
+`;
+
+exports[`DashboardStringModule Component Should show loading 1`] = `
+<DashboardShellModule
+  isFetching={true}
+  title="title"
+/>
+`;

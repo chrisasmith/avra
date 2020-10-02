@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Interest Profile Tab should show 1`] = `
+<div
+  className="grid"
+>
+  <div
+    className="breadCrumb"
+  >
+    <FilterBreadCrumb
+      filter={
+        Object {
+          "benchmark": Object {
+            "name": "benchmark",
+          },
+          "property": Object {
+            "name": "property",
+          },
+        }
+      }
+    />
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="row row-grid"
+    >
+      <div
+        className="col-6"
+      >
+        <DashboardGraphModule
+          benchmarkTitle="benchmark"
+          data={null}
+          isFetching={false}
+          propertyTitle="property"
+          sideTitle="Interest areas"
+          title="Interest Areas"
+          type="PERCENT"
+        />
+        <DashboardGraphModule
+          benchmarkTitle="benchmark"
+          data={null}
+          isFetching={false}
+          propertyTitle="property"
+          sideTitle="Interest areas"
+          title="Additional Interests"
+          type="PERCENT"
+        />
+      </div>
+      <div
+        className="col-6"
+      >
+        <DashboardGraphModule
+          benchmarkTitle="benchmark"
+          data={null}
+          isFetching={false}
+          propertyTitle="property"
+          sideTitle="Interest areas"
+          title="Sports Interest Areas"
+          type="PERCENT"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Interest Profile Tab should show loading 1`] = `
+<div
+  className="grid"
+>
+  <div
+    className="breadCrumb"
+  >
+    <FilterBreadCrumb
+      filter={
+        Object {
+          "benchmark": Object {
+            "name": "benchmark",
+          },
+          "property": Object {
+            "name": "property",
+          },
+        }
+      }
+    />
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="row row-grid"
+    >
+      <div
+        className="col-6"
+      >
+        <DashboardGraphModule
+          benchmarkTitle="benchmark"
+          data={null}
+          isFetching={true}
+          propertyTitle="property"
+          sideTitle="Interest areas"
+          title="Interest Areas"
+          type="PERCENT"
+        />
+        <DashboardGraphModule
+          benchmarkTitle="benchmark"
+          data={null}
+          isFetching={true}
+          propertyTitle="property"
+          sideTitle="Interest areas"
+          title="Additional Interests"
+          type="PERCENT"
+        />
+      </div>
+      <div
+        className="col-6"
+      >
+        <DashboardGraphModule
+          benchmarkTitle="benchmark"
+          data={null}
+          isFetching={true}
+          propertyTitle="property"
+          sideTitle="Interest areas"
+          title="Sports Interest Areas"
+          type="PERCENT"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

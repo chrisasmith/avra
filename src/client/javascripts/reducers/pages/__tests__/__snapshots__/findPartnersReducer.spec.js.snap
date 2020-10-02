@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Find Partners reducer should handle GET_FIND_PARTNERS_PAGE.SUCCESS 1`] = `Object {}`;

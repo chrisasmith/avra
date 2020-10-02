@@ -1,0 +1,14 @@
+[
+  {
+    "id": "find_partners.tabs.overview",
+    "defaultMessage": "Overview"
+  },
+  {
+    "id": "find_partners.tabs.brands",
+    "defaultMessage": "Brands"
+  },
+  {
+    "id": "find_partners.tabs.Trends",
+    "defaultMessage": "Trends"
+  }
+]

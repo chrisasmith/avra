@@ -1,0 +1,10 @@
+[
+  {
+    "id": "bread_crumb.segmented",
+    "defaultMessage": "Segmented by:"
+  },
+  {
+    "id": "bread_crumb.benchmark",
+    "defaultMessage": "Benchmark:"
+  }
+]

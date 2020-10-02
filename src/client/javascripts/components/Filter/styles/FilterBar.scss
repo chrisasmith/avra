@@ -1,0 +1,85 @@
+@import '../../../../stylesheets/modules/theme.scss';
+
+.wrapper {
+  width: 216px;
+  height: 100%;
+  color: $darker-gray-color;
+  font-size: 14px;
+  background-color: darken($page-background, 2%);
+  border-right: 1px solid darken($page-background, 10%);
+}
+
+.detailsArea {
+  height: 178px;
+  background-color: #ddd;
+}
+
+.filters {
+  margin-top: 32px;
+}
+
+.genderColumns {
+  width: 80%;
+  display: inline-block;
+
+  & > div {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+  }
+
+  button {
+    width: 70px;
+    margin-bottom: 8px;
+  }
+}
+
+.incomeButtons {
+  display: inline-block;
+  width: 80%;
+  button {
+    margin-right: 8px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.interestButtons {
+  button {
+    margin-right: 6px;
+    &:last-child {
+      margin-right: 0;
+    }
+
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-right: 8px;
+    line-height: 15px;
+    padding-left: 9px;
+    padding-top: 2px;
+  }
+}
+
+.veryInterested, .notInterested {
+  float: left;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 8px;
+  text-align: left;
+  margin-left: 16px;
+  width: 56px;
+}
+
+.veryInterested {
+  float: right;
+  text-align: right;
+  margin-right: 16px;
+}
+
+.interestContainer {
+  overflow: hidden;
+}

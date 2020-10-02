@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs Component Should show 1`] = `
+<ul
+  className="nav nav-tabs"
+>
+  <li
+    className="nav-item"
+  >
+    <Link
+      className="nav-link"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/find_partners"
+    >
+      Overview
+    </Link>
+  </li>
+  <NavDropdown
+    active={false}
+    title="Industries"
+  />
+  <li
+    className="nav-item"
+  >
+    <Link
+      className="nav-link"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/find_partners/brand"
+    >
+      Brands
+    </Link>
+  </li>
+  <li
+    className="nav-item"
+  >
+    <Link
+      className="nav-link"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/find_partners/trends"
+    >
+      Trends
+    </Link>
+  </li>
+</ul>
+`;
+
+exports[`Tabs Component Should show active tab 1`] = `
+<ul
+  className="nav nav-tabs"
+>
+  <li
+    className="nav-item"
+  >
+    <Link
+      className="nav-link"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/find_partners"
+    >
+      Overview
+    </Link>
+  </li>
+  <NavDropdown
+    active={true}
+    title="Industries"
+  />
+  <li
+    className="nav-item"
+  >
+    <Link
+      className="nav-link"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/find_partners/brand"
+    >
+      Brands
+    </Link>
+  </li>
+  <li
+    className="nav-item"
+  >
+    <Link
+      className="nav-link"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/find_partners/trends"
+    >
+      Trends
+    </Link>
+  </li>
+</ul>
+`;
+
+exports[`Tabs Component Should show dropdown 1`] = `
+<ul
+  className="nav nav-tabs"
+>
+  <li
+    className="nav-item"
+  >
+    <Link
+      className="nav-link"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/find_partners"
+    >
+      Overview
+    </Link>
+  </li>
+  <NavDropdown
+    active={false}
+    title="Industries"
+  >
+    <LinkContainer
+      action="push"
+      key="1"
+      onlyActiveOnIndex={false}
+      to="/find_partners/industries/1"
+    >
+      <ForwardRef(ContextTransform)>
+        first
+      </ForwardRef(ContextTransform)>
+    </LinkContainer>
+    <LinkContainer
+      action="push"
+      key="1"
+      onlyActiveOnIndex={false}
+      to="/find_partners/industries/1"
+    >
+      <ForwardRef(ContextTransform)>
+        second
+      </ForwardRef(ContextTransform)>
+    </LinkContainer>
+  </NavDropdown>
+  <li
+    className="nav-item"
+  >
+    <Link
+      className="nav-link"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/find_partners/brand"
+    >
+      Brands
+    </Link>
+  </li>
+  <li
+    className="nav-item"
+  >
+    <Link
+      className="nav-link"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/find_partners/trends"
+    >
+      Trends
+    </Link>
+  </li>
+</ul>
+`;

@@ -1,0 +1,708 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DashboardIndexModule Component Should change data on dropdown 1`] = `
+<DashboardShellModule
+  isFetching={false}
+  onDownloadCSV={[Function]}
+  onDownloadImage={[Function]}
+  title="title"
+>
+  <div>
+    <div
+      className="graphWrapper"
+    >
+      <div
+        className="p-3 graphContainer"
+      >
+        <div
+          className="dropdown"
+        >
+          <select
+            className="form-control"
+            onChange={[Function]}
+            value="imported"
+          >
+            <option
+              key="all"
+              value="all"
+            >
+              All
+            </option>
+            <option
+              key="imported"
+              value="imported"
+            >
+              Imported
+            </option>
+          </select>
+        </div>
+        <div
+          className="graphHolder"
+        >
+          <div>
+            <div>
+              <IndexGraph
+                key="0"
+                maxValue={5.28}
+                title="Labatt Blue"
+                value={5.28}
+              />
+              <IndexGraph
+                key="1"
+                maxValue={5.28}
+                title="Heineken"
+                value={1.61}
+              />
+              <IndexGraph
+                key="2"
+                maxValue={5.28}
+                title="Corona Light"
+                value={1.52}
+              />
+            </div>
+            <div
+              className="line"
+            >
+              <div
+                className="indicatorLine"
+                style={
+                  Object {
+                    "left": "18.939393939393938%",
+                  }
+                }
+              />
+              <div
+                className="indicatorNumber"
+                style={
+                  Object {
+                    "left": "18.939393939393938%",
+                  }
+                }
+              >
+                1
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div />
+    </div>
+  </div>
+</DashboardShellModule>
+`;
+
+exports[`DashboardIndexModule Component Should expand 1`] = `
+<DashboardShellModule
+  isFetching={false}
+  onDownloadCSV={[Function]}
+  onDownloadImage={[Function]}
+  title="title"
+>
+  <div>
+    <div
+      className="graphWrapper"
+    >
+      <div
+        className="p-3 graphContainer"
+      >
+        <div
+          className="graphHolder"
+        >
+          <div>
+            <div>
+              <IndexGraph
+                key="0"
+                maxValue={2}
+                title="Beer"
+                tooltip="Have bought in the last 4 weeks"
+                value={1.23}
+              />
+              <IndexGraph
+                key="1"
+                maxValue={2}
+                title="Computer accessories"
+                tooltip="Intend to buy new in the next 12 months"
+                value={1.18}
+              />
+              <IndexGraph
+                key="2"
+                maxValue={2}
+                title="title"
+                tooltip="tip"
+                value={1.18}
+              />
+              <IndexGraph
+                key="3"
+                maxValue={2}
+                title="Auto"
+                tooltip="Intend to buy new in the next 12 months"
+                value={1.15}
+              />
+              <IndexGraph
+                key="4"
+                maxValue={2}
+                title="Computer"
+                tooltip="Intend to buy new in the next 12 months"
+                value={1.11}
+              />
+            </div>
+            <div
+              className="line"
+            >
+              <div
+                className="indicatorLine"
+                style={
+                  Object {
+                    "left": "50%",
+                  }
+                }
+              />
+              <div
+                className="indicatorNumber"
+                style={
+                  Object {
+                    "left": "50%",
+                  }
+                }
+              >
+                1
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="seeMoreLink"
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+          >
+            See Less Results
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</DashboardShellModule>
+`;
+
+exports[`DashboardIndexModule Component Should show 1`] = `
+<DashboardShellModule
+  isFetching={false}
+  onDownloadCSV={[Function]}
+  onDownloadImage={[Function]}
+  title="title"
+>
+  <div>
+    <div
+      className="graphWrapper"
+    >
+      <div
+        className="p-3 graphContainer"
+      >
+        <div
+          className="graphHolder"
+        >
+          <div>
+            <div>
+              <IndexGraph
+                key="0"
+                maxValue={2}
+                title="Beer"
+                tooltip="Have bought in the last 4 weeks"
+                value={1.23}
+              />
+              <IndexGraph
+                key="1"
+                maxValue={2}
+                title="Computer accessories"
+                tooltip="Intend to buy new in the next 12 months"
+                value={1.18}
+              />
+              <IndexGraph
+                key="2"
+                maxValue={2}
+                title="Auto"
+                tooltip="Intend to buy new in the next 12 months"
+                value={1.15}
+              />
+              <IndexGraph
+                key="3"
+                maxValue={2}
+                title="Computer"
+                tooltip="Intend to buy new in the next 12 months"
+                value={1.11}
+              />
+            </div>
+            <div
+              className="line"
+            >
+              <div
+                className="indicatorLine"
+                style={
+                  Object {
+                    "left": "50%",
+                  }
+                }
+              />
+              <div
+                className="indicatorNumber"
+                style={
+                  Object {
+                    "left": "50%",
+                  }
+                }
+              >
+                1
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div />
+    </div>
+  </div>
+</DashboardShellModule>
+`;
+
+exports[`DashboardIndexModule Component Should show expand button 1`] = `
+<DashboardShellModule
+  isFetching={false}
+  onDownloadCSV={[Function]}
+  onDownloadImage={[Function]}
+  title="title"
+>
+  <div>
+    <div
+      className="graphWrapper"
+    >
+      <div
+        className="p-3 graphContainer"
+      >
+        <div
+          className="graphHolder"
+        >
+          <div>
+            <div>
+              <IndexGraph
+                key="0"
+                maxValue={2}
+                title="Beer"
+                tooltip="Have bought in the last 4 weeks"
+                value={1.23}
+              />
+              <IndexGraph
+                key="1"
+                maxValue={2}
+                title="Computer accessories"
+                tooltip="Intend to buy new in the next 12 months"
+                value={1.18}
+              />
+              <IndexGraph
+                key="2"
+                maxValue={2}
+                title="title"
+                tooltip="tip"
+                value={1.18}
+              />
+              <IndexGraph
+                key="3"
+                maxValue={2}
+                title="Auto"
+                tooltip="Intend to buy new in the next 12 months"
+                value={1.15}
+              />
+            </div>
+            <div
+              className="line"
+            >
+              <div
+                className="indicatorLine"
+                style={
+                  Object {
+                    "left": "50%",
+                  }
+                }
+              />
+              <div
+                className="indicatorNumber"
+                style={
+                  Object {
+                    "left": "50%",
+                  }
+                }
+              >
+                1
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="seeMoreLink"
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+          >
+            See More Results
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</DashboardShellModule>
+`;
+
+exports[`DashboardIndexModule Component Should show scarborough 1`] = `
+<DashboardShellModule
+  isFetching={false}
+  onDownloadCSV={[Function]}
+  onDownloadImage={[Function]}
+  title="title"
+>
+  <div>
+    <div
+      className="graphWrapper"
+    >
+      <div
+        className="p-3 graphContainer"
+      >
+        <div
+          className="graphHolder"
+        >
+          <div>
+            <div>
+              <IndexGraph
+                key="0"
+                maxValue={2}
+                title="Beer"
+                tooltip="Have bought in the last 4 weeks"
+                value={1.23}
+              />
+              <IndexGraph
+                key="1"
+                maxValue={2}
+                title="Computer accessories"
+                tooltip="Intend to buy new in the next 12 months"
+                value={1.18}
+              />
+              <IndexGraph
+                key="2"
+                maxValue={2}
+                title="Auto"
+                tooltip="Intend to buy new in the next 12 months"
+                value={1.15}
+              />
+              <IndexGraph
+                key="3"
+                maxValue={2}
+                title="Computer"
+                tooltip="Intend to buy new in the next 12 months"
+                value={1.11}
+              />
+            </div>
+            <div
+              className="line"
+            >
+              <div
+                className="indicatorLine"
+                style={
+                  Object {
+                    "left": "50%",
+                  }
+                }
+              />
+              <div
+                className="indicatorNumber"
+                style={
+                  Object {
+                    "left": "50%",
+                  }
+                }
+              >
+                1
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="source"
+        >
+          Source: Scarborough Research
+        </div>
+      </div>
+    </div>
+  </div>
+</DashboardShellModule>
+`;
+
+exports[`DashboardIndexModule Component Should show with a max higher than 2 1`] = `
+<DashboardShellModule
+  isFetching={false}
+  onDownloadCSV={[Function]}
+  onDownloadImage={[Function]}
+  title="title"
+>
+  <div>
+    <div
+      className="graphWrapper"
+    >
+      <div
+        className="p-3 graphContainer"
+      >
+        <div
+          className="graphHolder"
+        >
+          <div>
+            <div>
+              <IndexGraph
+                key="0"
+                maxValue={6.18}
+                title="title"
+                tooltip="tip"
+                value={6.18}
+              />
+              <IndexGraph
+                key="1"
+                maxValue={6.18}
+                title="Beer"
+                tooltip="Have bought in the last 4 weeks"
+                value={1.23}
+              />
+              <IndexGraph
+                key="2"
+                maxValue={6.18}
+                title="Computer accessories"
+                tooltip="Intend to buy new in the next 12 months"
+                value={1.18}
+              />
+              <IndexGraph
+                key="3"
+                maxValue={6.18}
+                title="Auto"
+                tooltip="Intend to buy new in the next 12 months"
+                value={1.15}
+              />
+            </div>
+            <div
+              className="line"
+            >
+              <div
+                className="indicatorLine"
+                style={
+                  Object {
+                    "left": "16.181229773462785%",
+                  }
+                }
+              />
+              <div
+                className="indicatorNumber"
+                style={
+                  Object {
+                    "left": "16.181229773462785%",
+                  }
+                }
+              >
+                1
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="seeMoreLink"
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+          >
+            See More Results
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</DashboardShellModule>
+`;
+
+exports[`DashboardIndexModule Component Should show with array data 1`] = `
+<DashboardShellModule
+  isFetching={false}
+  onDownloadCSV={[Function]}
+  onDownloadImage={[Function]}
+  title="title"
+>
+  <div>
+    <div
+      className="graphWrapper"
+    >
+      <div
+        className="p-3 graphContainer"
+      >
+        <div
+          className="dropdown"
+        >
+          <select
+            className="form-control"
+            onChange={[Function]}
+            value="all"
+          >
+            <option
+              key="all"
+              value="all"
+            >
+              All
+            </option>
+            <option
+              key="imported"
+              value="imported"
+            >
+              Imported
+            </option>
+          </select>
+        </div>
+        <div
+          className="graphHolder"
+        >
+          <div>
+            <div>
+              <IndexGraph
+                key="0"
+                maxValue={5.28}
+                title="Labatt Blue"
+                value={5.28}
+              />
+              <IndexGraph
+                key="1"
+                maxValue={5.28}
+                title="Samuel Adams"
+                value={2.46}
+              />
+            </div>
+            <div
+              className="line"
+            >
+              <div
+                className="indicatorLine"
+                style={
+                  Object {
+                    "left": "18.939393939393938%",
+                  }
+                }
+              />
+              <div
+                className="indicatorNumber"
+                style={
+                  Object {
+                    "left": "18.939393939393938%",
+                  }
+                }
+              >
+                1
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div />
+    </div>
+  </div>
+</DashboardShellModule>
+`;
+
+exports[`DashboardIndexModule Component Should shrink 1`] = `
+<DashboardShellModule
+  isFetching={false}
+  onDownloadCSV={[Function]}
+  onDownloadImage={[Function]}
+  title="title"
+>
+  <div>
+    <div
+      className="graphWrapper"
+    >
+      <div
+        className="p-3 graphContainer"
+      >
+        <div
+          className="graphHolder"
+        >
+          <div>
+            <div>
+              <IndexGraph
+                key="0"
+                maxValue={2}
+                title="Beer"
+                tooltip="Have bought in the last 4 weeks"
+                value={1.23}
+              />
+              <IndexGraph
+                key="1"
+                maxValue={2}
+                title="Computer accessories"
+                tooltip="Intend to buy new in the next 12 months"
+                value={1.18}
+              />
+              <IndexGraph
+                key="2"
+                maxValue={2}
+                title="title"
+                tooltip="tip"
+                value={1.18}
+              />
+              <IndexGraph
+                key="3"
+                maxValue={2}
+                title="Auto"
+                tooltip="Intend to buy new in the next 12 months"
+                value={1.15}
+              />
+            </div>
+            <div
+              className="line"
+            >
+              <div
+                className="indicatorLine"
+                style={
+                  Object {
+                    "left": "50%",
+                  }
+                }
+              />
+              <div
+                className="indicatorNumber"
+                style={
+                  Object {
+                    "left": "50%",
+                  }
+                }
+              >
+                1
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="seeMoreLink"
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+          >
+            See More Results
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</DashboardShellModule>
+`;

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "save_filter.save_segmentation",
+    "defaultMessage": "Save Segmentation"
+  },
+  {
+    "id": "save_filter.name",
+    "defaultMessage": "Name"
+  },
+  {
+    "id": "save_filter.cancel_btn",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "save_filter.save_btn",
+    "defaultMessage": "Save"
+  }
+]

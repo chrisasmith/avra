@@ -1,0 +1,382 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components FlyoutMenu should render 1`] = `
+<div
+  className="flyout"
+>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "pageEnter",
+        "enterActive": "pageEnterActive",
+        "exit": "pageExit",
+        "exitActive": "pageExitActive",
+      }
+    }
+    in={true}
+    key="0"
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="page"
+    />
+  </CSSTransition>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "pageEnter",
+        "enterActive": "pageEnterActive",
+        "exit": "pageExit",
+        "exitActive": "pageExitActive",
+      }
+    }
+    in={false}
+    key="1"
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="page"
+    />
+  </CSSTransition>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "pageEnter",
+        "enterActive": "pageEnterActive",
+        "exit": "pageExit",
+        "exitActive": "pageExitActive",
+      }
+    }
+    in={false}
+    key="2"
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="page"
+    />
+  </CSSTransition>
+</div>
+`;
+
+exports[`Components FlyoutMenu should render group items 1`] = `
+<div
+  className="flyout"
+>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "pageEnter",
+        "enterActive": "pageEnterActive",
+        "exit": "pageExit",
+        "exitActive": "pageExitActive",
+      }
+    }
+    in={true}
+    key="0"
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="page"
+    >
+      <div
+        key="0"
+      >
+        <div
+          className="pt-2 pb-2 item"
+          onClick={[Function]}
+        >
+          hi
+        </div>
+        <div
+          className="top"
+        />
+      </div>
+    </div>
+  </CSSTransition>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "pageEnter",
+        "enterActive": "pageEnterActive",
+        "exit": "pageExit",
+        "exitActive": "pageExitActive",
+      }
+    }
+    in={false}
+    key="1"
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="page"
+    />
+  </CSSTransition>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "pageEnter",
+        "enterActive": "pageEnterActive",
+        "exit": "pageExit",
+        "exitActive": "pageExitActive",
+      }
+    }
+    in={false}
+    key="2"
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="page"
+    />
+  </CSSTransition>
+</div>
+`;
+
+exports[`Components FlyoutMenu should render items 1`] = `
+<div
+  className="flyout"
+>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "pageEnter",
+        "enterActive": "pageEnterActive",
+        "exit": "pageExit",
+        "exitActive": "pageExitActive",
+      }
+    }
+    in={true}
+    key="0"
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="page"
+    >
+      <div
+        key="0"
+      >
+        <div
+          className="pt-2 pb-2 item"
+          onClick={[Function]}
+        >
+          hi
+        </div>
+        <div
+          className=""
+        />
+      </div>
+    </div>
+  </CSSTransition>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "pageEnter",
+        "enterActive": "pageEnterActive",
+        "exit": "pageExit",
+        "exitActive": "pageExitActive",
+      }
+    }
+    in={false}
+    key="1"
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="page"
+    />
+  </CSSTransition>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "pageEnter",
+        "enterActive": "pageEnterActive",
+        "exit": "pageExit",
+        "exitActive": "pageExitActive",
+      }
+    }
+    in={false}
+    key="2"
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="page"
+    />
+  </CSSTransition>
+</div>
+`;
+
+exports[`Components FlyoutMenu should render items with children 1`] = `
+<div
+  className="flyout"
+>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "pageEnter",
+        "enterActive": "pageEnterActive",
+        "exit": "pageExit",
+        "exitActive": "pageExitActive",
+      }
+    }
+    in={true}
+    key="0"
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="page"
+    >
+      <div
+        key="0"
+      >
+        <div
+          className="pt-2 pb-2 item"
+          onClick={[Function]}
+        >
+          hi
+          <i
+            className="fa fa-chevron-right next"
+          />
+        </div>
+        <div
+          className=""
+        />
+      </div>
+    </div>
+  </CSSTransition>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "pageEnter",
+        "enterActive": "pageEnterActive",
+        "exit": "pageExit",
+        "exitActive": "pageExitActive",
+      }
+    }
+    in={false}
+    key="1"
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="page"
+    />
+  </CSSTransition>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "pageEnter",
+        "enterActive": "pageEnterActive",
+        "exit": "pageExit",
+        "exitActive": "pageExitActive",
+      }
+    }
+    in={false}
+    key="2"
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="page"
+    />
+  </CSSTransition>
+</div>
+`;
+
+exports[`Components FlyoutMenu should switch pages 1`] = `
+<div
+  className="flyout"
+>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "pageEnter",
+        "enterActive": "pageEnterActive",
+        "exit": "pageExit",
+        "exitActive": "pageExitActive",
+      }
+    }
+    in={false}
+    key="0"
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="page"
+    >
+      <div
+        key="0"
+      >
+        <div
+          className="pt-2 pb-2 item"
+          onClick={[Function]}
+        >
+          hi
+          <i
+            className="fa fa-chevron-right next"
+          />
+        </div>
+        <div
+          className=""
+        />
+      </div>
+    </div>
+  </CSSTransition>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "pageEnter",
+        "enterActive": "pageEnterActive",
+        "exit": "pageExit",
+        "exitActive": "pageExitActive",
+      }
+    }
+    in={true}
+    key="1"
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="page"
+    >
+      <div
+        key="1"
+      >
+        <div
+          className="pt-2 pb-2 item"
+          onClick={[Function]}
+        >
+          second
+        </div>
+        <div
+          className=""
+        />
+      </div>
+    </div>
+  </CSSTransition>
+  <CSSTransition
+    classNames={
+      Object {
+        "enter": "pageEnter",
+        "enterActive": "pageEnterActive",
+        "exit": "pageExit",
+        "exitActive": "pageExitActive",
+      }
+    }
+    in={false}
+    key="2"
+    timeout={300}
+    unmountOnExit={true}
+  >
+    <div
+      className="page"
+    />
+  </CSSTransition>
+</div>
+`;

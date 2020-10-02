@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DashboardShellModule Component Should show 1`] = `
+<div
+  className="module"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="download"
+      href="#"
+      onClick={[Function]}
+    >
+      <i
+        aria-hidden="true"
+        className="fa fa-download"
+      />
+    </div>
+    <TooltipPopup
+      onClickOutside={[Function]}
+      show={false}
+      target={null}
+    >
+      <div
+        className="popup"
+      />
+    </TooltipPopup>
+    <h6
+      className="text-center pt-3 pb-2 title"
+    >
+      title
+    </h6>
+    <div>
+      hi
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DashboardShellModule Component Should show loading 1`] = `
+<div
+  className="module"
+>
+  <div
+    className="container"
+  >
+    <div>
+      Loading...
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DashboardShellModule Component Should show wire up download buttons 1`] = `
+<div
+  className="module"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="download"
+      href="#"
+      onClick={[Function]}
+    >
+      <i
+        aria-hidden="true"
+        className="fa fa-download"
+      />
+    </div>
+    <TooltipPopup
+      onClickOutside={[Function]}
+      show={false}
+      target={null}
+    >
+      <div
+        className="popup"
+      >
+        <a
+          href="#"
+          onClick={[Function]}
+        >
+          Download .jpg
+        </a>
+        <a
+          href="#"
+          onClick={[Function]}
+        >
+          Download csv
+        </a>
+      </div>
+    </TooltipPopup>
+    <h6
+      className="text-center pt-3 pb-2 title"
+    >
+      title
+    </h6>
+    <div>
+      hi
+    </div>
+  </div>
+</div>
+`;

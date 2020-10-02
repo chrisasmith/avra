@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components FilterButton should render 1`] = `
+<ForwardRef(Bootstrap(Button))
+  active={true}
+  className="btn-outline-primary button"
+  onClick={[Function]}
+/>
+`;
+
+exports[`Components FilterButton should render children 1`] = `
+<ForwardRef(Bootstrap(Button))
+  active={false}
+  className="btn-outline-primary button"
+  onClick={[Function]}
+>
+  <div>
+    hi
+  </div>
+</ForwardRef(Bootstrap(Button))>
+`;
+
+exports[`Components FilterButton should render inactive 1`] = `
+<ForwardRef(Bootstrap(Button))
+  active={false}
+  className="btn-outline-primary button"
+  onClick={[Function]}
+/>
+`;

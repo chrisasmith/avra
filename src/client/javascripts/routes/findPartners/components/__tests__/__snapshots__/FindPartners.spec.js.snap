@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Find Partners Page should show error 1`] = `
+<div
+  className="columns"
+>
+  <div>
+    <Connect(FilterBar)
+      onFilterChange={[Function]}
+    />
+  </div>
+  <div>
+    <div
+      className="title"
+    >
+      <h4>
+        Find Partners
+      </h4>
+    </div>
+    <div
+      className="tabs"
+    >
+      <Tabs
+        industries={null}
+        location={Object {}}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Find Partners Page should show loading 1`] = `
+<div
+  className="columns"
+>
+  <div>
+    <Connect(FilterBar)
+      onFilterChange={[Function]}
+    />
+  </div>
+  <div>
+    <div
+      className="title"
+    >
+      <h4>
+        Find Partners
+      </h4>
+    </div>
+    <div
+      className="tabs"
+    >
+      <Tabs
+        industries={null}
+        location={Object {}}
+      />
+    </div>
+  </div>
+</div>
+`;

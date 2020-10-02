@@ -1,0 +1,1840 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components FilterBar should disabled filter button when there are no filters 1`] = `
+<div
+  className="wrapper"
+>
+  <div
+    className="detailsArea"
+  >
+    Premier League
+  </div>
+  <FlyoutButton
+    label="Select Property"
+    onItemSelected={[Function]}
+    options={
+      Array [
+        Object {
+          "id": 31,
+          "isGroup": false,
+          "name": "American Football",
+          "type": "sport",
+        },
+        Object {
+          "id": 1,
+          "isGroup": false,
+          "name": "Athletics / Track and Field",
+          "type": "sport",
+        },
+        Object {
+          "id": 2,
+          "isGroup": false,
+          "name": "Badminton",
+          "type": "sport",
+        },
+        Object {
+          "id": 4,
+          "isGroup": false,
+          "name": "Baseball",
+          "type": "sport",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "id": 3,
+              "isGroup": true,
+              "name": "All Basketball",
+              "sport": "Basketball",
+              "type": "sport",
+            },
+            Object {
+              "id": 4,
+              "isGroup": false,
+              "name": "IBL",
+              "sport": "Basketball",
+              "type": "league",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "id": 5,
+                  "isGroup": true,
+                  "name": "All NBA",
+                  "sport": "Basketball",
+                  "type": "league",
+                },
+                Object {
+                  "id": 6,
+                  "isGroup": false,
+                  "name": "Atlanta Hawks",
+                  "sport": "Basketball",
+                  "type": "team",
+                },
+                Object {
+                  "id": 7,
+                  "isGroup": false,
+                  "name": "Boston Celtics",
+                  "sport": "Basketball",
+                  "type": "team",
+                },
+                Object {
+                  "id": 8,
+                  "isGroup": false,
+                  "name": "Brooklyn Nets",
+                  "sport": "Basketball",
+                  "type": "team",
+                },
+              ],
+              "id": 5,
+              "isGroup": false,
+              "name": "NBA",
+            },
+          ],
+          "id": 3,
+          "isGroup": false,
+          "name": "Basketball",
+        },
+        Object {
+          "id": 5,
+          "isGroup": false,
+          "name": "Boxing",
+          "type": "sport",
+        },
+        Object {
+          "id": 6,
+          "isGroup": false,
+          "name": "Cricket",
+          "type": "sport",
+        },
+        Object {
+          "id": 7,
+          "isGroup": false,
+          "name": "Cycling",
+          "type": "sport",
+        },
+        Object {
+          "id": 8,
+          "isGroup": false,
+          "name": "Darts",
+          "type": "sport",
+        },
+        Object {
+          "id": 9,
+          "isGroup": false,
+          "name": "Endurance Running",
+          "type": "sport",
+        },
+        Object {
+          "id": 10,
+          "isGroup": false,
+          "name": "Extreme Sports / Action sports",
+          "type": "sport",
+        },
+        Object {
+          "id": 11,
+          "isGroup": false,
+          "name": "Fencing",
+          "type": "sport",
+        },
+        Object {
+          "id": 12,
+          "isGroup": false,
+          "name": "Field Hockey",
+          "type": "sport",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "id": 3,
+              "isGroup": true,
+              "name": "All Football / Soccer",
+              "sport": "Football / Soccer",
+              "type": "sport",
+            },
+            Object {
+              "id": 32,
+              "isGroup": false,
+              "name": "Premier League",
+              "sport": "Football / Soccer",
+              "type": "league",
+            },
+          ],
+          "id": 13,
+          "isGroup": false,
+          "name": "Football / Soccer",
+          "type": "sport",
+        },
+        Object {
+          "id": 14,
+          "isGroup": false,
+          "name": "Golf",
+          "type": "sport",
+        },
+        Object {
+          "id": 15,
+          "isGroup": false,
+          "name": "Handball",
+          "type": "sport",
+        },
+        Object {
+          "id": 16,
+          "isGroup": false,
+          "name": "Ice Hockey",
+          "type": "sport",
+        },
+        Object {
+          "id": 17,
+          "isGroup": false,
+          "name": "Mixed Martial Arts (MMA)",
+          "type": "sport",
+        },
+        Object {
+          "id": 18,
+          "isGroup": false,
+          "name": "Motorsport",
+          "type": "sport",
+        },
+        Object {
+          "id": 19,
+          "isGroup": false,
+          "name": "Netball",
+          "type": "sport",
+        },
+        Object {
+          "id": 20,
+          "isGroup": false,
+          "name": "Rugby League",
+          "type": "sport",
+        },
+        Object {
+          "id": 21,
+          "isGroup": false,
+          "name": "Rugby Union / Rugby",
+          "type": "sport",
+        },
+        Object {
+          "id": 22,
+          "isGroup": false,
+          "name": "Sailing",
+          "type": "sport",
+        },
+        Object {
+          "id": 23,
+          "isGroup": false,
+          "name": "Snooker",
+          "type": "sport",
+        },
+        Object {
+          "id": 24,
+          "isGroup": false,
+          "name": "Surfing",
+          "type": "sport",
+        },
+        Object {
+          "id": 25,
+          "isGroup": false,
+          "name": "Swimming",
+          "type": "sport",
+        },
+        Object {
+          "id": 27,
+          "isGroup": false,
+          "name": "Tennis",
+          "type": "sport",
+        },
+        Object {
+          "id": 28,
+          "isGroup": false,
+          "name": "Triathlon",
+          "type": "sport",
+        },
+        Object {
+          "id": 29,
+          "isGroup": false,
+          "name": "Volleyball",
+          "type": "sport",
+        },
+        Object {
+          "id": 30,
+          "isGroup": false,
+          "name": "Winter Sports",
+          "type": "sport",
+        },
+      ]
+    }
+  />
+  <FlyoutButton
+    className="pt-3"
+    label="Benchmark"
+    onItemSelected={[Function]}
+    options={
+      Array [
+        Object {
+          "id": 0,
+          "isGroup": false,
+          "name": "All Sports Fans",
+        },
+        Object {
+          "id": 1,
+          "name": "All Football / Soccer Fans",
+        },
+      ]
+    }
+  />
+  <div
+    className="pl-3 pt-1 pb-3"
+  >
+    All Sports Fans
+  </div>
+  <div
+    className="filters"
+  >
+    <h5
+      className="text-center"
+    >
+      SEGMENTATION
+    </h5>
+    <div>
+      <FlyoutButton
+        disabled={true}
+        label="Saved Segmentation"
+        onItemSelected={[Function]}
+        options={Array []}
+      />
+      <div
+        className="pl-3 pt-1 pb-3"
+      >
+        None
+      </div>
+      <FlyoutButton
+        label="Country"
+        onItemSelected={[Function]}
+        options={
+          Array [
+            Object {
+              "id": 1,
+              "isGroup": true,
+              "name": "All Countries",
+            },
+            Object {
+              "id": 3,
+              "isGroup": false,
+              "name": "Finland",
+            },
+            Object {
+              "id": 4,
+              "isGroup": false,
+              "name": "Canada",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "id": 4,
+                  "isGroup": true,
+                  "name": "All USA",
+                },
+                Object {
+                  "id": 5,
+                  "isGroup": false,
+                  "name": "Atlanta",
+                },
+                Object {
+                  "id": 6,
+                  "isGroup": false,
+                  "name": "Chicago",
+                },
+                Object {
+                  "id": 7,
+                  "isGroup": false,
+                  "name": "Seattle",
+                },
+              ],
+              "id": 5,
+              "isGroup": false,
+              "name": "United States",
+            },
+          ]
+        }
+      />
+      <div
+        className="pl-3 pt-1 pb-3"
+      >
+        All Countries
+      </div>
+    </div>
+  </div>
+  <div
+    className="text-center"
+  >
+    <h6
+      className="pl-3 mt-3 pb-1 text-left"
+    >
+      Age & Gender
+    </h6>
+    <div
+      className="genderColumns"
+    >
+      <div>
+        Men
+        <FilterButton
+          key="0"
+          name="men_age"
+          onChange={[Function]}
+          value={0}
+          values={
+            Array [
+              0,
+              1,
+              2,
+            ]
+          }
+        >
+          18-29
+        </FilterButton>
+        <FilterButton
+          key="1"
+          name="men_age"
+          onChange={[Function]}
+          value={1}
+          values={
+            Array [
+              0,
+              1,
+              2,
+            ]
+          }
+        >
+          30-59
+        </FilterButton>
+        <FilterButton
+          key="2"
+          name="men_age"
+          onChange={[Function]}
+          value={2}
+          values={
+            Array [
+              0,
+              1,
+              2,
+            ]
+          }
+        >
+          60+
+        </FilterButton>
+      </div>
+      <div>
+        Women
+        <FilterButton
+          key="0"
+          name="women_age"
+          onChange={[Function]}
+          value={0}
+          values={
+            Array [
+              0,
+              1,
+              2,
+            ]
+          }
+        >
+          18-29
+        </FilterButton>
+        <FilterButton
+          key="1"
+          name="women_age"
+          onChange={[Function]}
+          value={1}
+          values={
+            Array [
+              0,
+              1,
+              2,
+            ]
+          }
+        >
+          30-59
+        </FilterButton>
+        <FilterButton
+          key="2"
+          name="women_age"
+          onChange={[Function]}
+          value={2}
+          values={
+            Array [
+              0,
+              1,
+              2,
+            ]
+          }
+        >
+          60+
+        </FilterButton>
+      </div>
+    </div>
+  </div>
+  <div
+    className="text-center"
+  >
+    <h6
+      className="pl-3 mt-3 pb-1 text-left"
+    >
+      Income
+    </h6>
+    <div
+      className="incomeButtons"
+    >
+      <FilterButton
+        key="0"
+        name="income"
+        onChange={[Function]}
+        value={0}
+        values={
+          Array [
+            0,
+            1,
+            2,
+          ]
+        }
+      >
+        $
+      </FilterButton>
+      <FilterButton
+        key="1"
+        name="income"
+        onChange={[Function]}
+        value={1}
+        values={
+          Array [
+            0,
+            1,
+            2,
+          ]
+        }
+      >
+        $$
+      </FilterButton>
+      <FilterButton
+        key="2"
+        name="income"
+        onChange={[Function]}
+        value={2}
+        values={
+          Array [
+            0,
+            1,
+            2,
+          ]
+        }
+      >
+        $$$
+      </FilterButton>
+    </div>
+  </div>
+  <div
+    className="text-center"
+  >
+    <h6
+      className="pl-3 mt-3 pb-1 text-left"
+    >
+      Kids in Household
+    </h6>
+    <div
+      className="incomeButtons"
+    >
+      <FilterButton
+        key="0"
+        name="kids"
+        onChange={[Function]}
+        value={0}
+        values={
+          Array [
+            0,
+            1,
+          ]
+        }
+      >
+        Kids
+      </FilterButton>
+      <FilterButton
+        key="1"
+        name="kids"
+        onChange={[Function]}
+        value={1}
+        values={
+          Array [
+            0,
+            1,
+          ]
+        }
+      >
+        No Kids
+      </FilterButton>
+    </div>
+  </div>
+  <div
+    className="text-center"
+  >
+    <h6
+      className="pl-3 mt-3 pb-1 text-left"
+    >
+      Interest Level
+    </h6>
+    <div
+      className="interestButtons"
+    >
+      <FilterButton
+        key="0"
+        name="interest"
+        onChange={[Function]}
+        value={0}
+        values={
+          Array [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+          ]
+        }
+      >
+        1
+      </FilterButton>
+      <FilterButton
+        key="1"
+        name="interest"
+        onChange={[Function]}
+        value={1}
+        values={
+          Array [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+          ]
+        }
+      >
+        2
+      </FilterButton>
+      <FilterButton
+        key="2"
+        name="interest"
+        onChange={[Function]}
+        value={2}
+        values={
+          Array [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+          ]
+        }
+      >
+        3
+      </FilterButton>
+      <FilterButton
+        key="3"
+        name="interest"
+        onChange={[Function]}
+        value={3}
+        values={
+          Array [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+          ]
+        }
+      >
+        4
+      </FilterButton>
+      <FilterButton
+        key="4"
+        name="interest"
+        onChange={[Function]}
+        value={4}
+        values={
+          Array [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+          ]
+        }
+      >
+        5
+      </FilterButton>
+    </div>
+    <div
+      className="interestContainer"
+    >
+      <div
+        className="notInterested"
+      >
+        Not Interested
+      </div>
+      <div
+        className="veryInterested"
+      >
+        Very Interested
+      </div>
+    </div>
+  </div>
+  <div
+    className="pt-3 text-center mt-3"
+  >
+    <SaveFilter
+      onSave={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`Components FilterBar should render 1`] = `
+<div
+  className="wrapper"
+>
+  <div
+    className="detailsArea"
+  >
+    Premier League
+  </div>
+  <FlyoutButton
+    label="Select Property"
+    onItemSelected={[Function]}
+    options={
+      Array [
+        Object {
+          "id": 31,
+          "isGroup": false,
+          "name": "American Football",
+          "type": "sport",
+        },
+        Object {
+          "id": 1,
+          "isGroup": false,
+          "name": "Athletics / Track and Field",
+          "type": "sport",
+        },
+        Object {
+          "id": 2,
+          "isGroup": false,
+          "name": "Badminton",
+          "type": "sport",
+        },
+        Object {
+          "id": 4,
+          "isGroup": false,
+          "name": "Baseball",
+          "type": "sport",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "id": 3,
+              "isGroup": true,
+              "name": "All Basketball",
+              "sport": "Basketball",
+              "type": "sport",
+            },
+            Object {
+              "id": 4,
+              "isGroup": false,
+              "name": "IBL",
+              "sport": "Basketball",
+              "type": "league",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "id": 5,
+                  "isGroup": true,
+                  "name": "All NBA",
+                  "sport": "Basketball",
+                  "type": "league",
+                },
+                Object {
+                  "id": 6,
+                  "isGroup": false,
+                  "name": "Atlanta Hawks",
+                  "sport": "Basketball",
+                  "type": "team",
+                },
+                Object {
+                  "id": 7,
+                  "isGroup": false,
+                  "name": "Boston Celtics",
+                  "sport": "Basketball",
+                  "type": "team",
+                },
+                Object {
+                  "id": 8,
+                  "isGroup": false,
+                  "name": "Brooklyn Nets",
+                  "sport": "Basketball",
+                  "type": "team",
+                },
+              ],
+              "id": 5,
+              "isGroup": false,
+              "name": "NBA",
+            },
+          ],
+          "id": 3,
+          "isGroup": false,
+          "name": "Basketball",
+        },
+        Object {
+          "id": 5,
+          "isGroup": false,
+          "name": "Boxing",
+          "type": "sport",
+        },
+        Object {
+          "id": 6,
+          "isGroup": false,
+          "name": "Cricket",
+          "type": "sport",
+        },
+        Object {
+          "id": 7,
+          "isGroup": false,
+          "name": "Cycling",
+          "type": "sport",
+        },
+        Object {
+          "id": 8,
+          "isGroup": false,
+          "name": "Darts",
+          "type": "sport",
+        },
+        Object {
+          "id": 9,
+          "isGroup": false,
+          "name": "Endurance Running",
+          "type": "sport",
+        },
+        Object {
+          "id": 10,
+          "isGroup": false,
+          "name": "Extreme Sports / Action sports",
+          "type": "sport",
+        },
+        Object {
+          "id": 11,
+          "isGroup": false,
+          "name": "Fencing",
+          "type": "sport",
+        },
+        Object {
+          "id": 12,
+          "isGroup": false,
+          "name": "Field Hockey",
+          "type": "sport",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "id": 3,
+              "isGroup": true,
+              "name": "All Football / Soccer",
+              "sport": "Football / Soccer",
+              "type": "sport",
+            },
+            Object {
+              "id": 32,
+              "isGroup": false,
+              "name": "Premier League",
+              "sport": "Football / Soccer",
+              "type": "league",
+            },
+          ],
+          "id": 13,
+          "isGroup": false,
+          "name": "Football / Soccer",
+          "type": "sport",
+        },
+        Object {
+          "id": 14,
+          "isGroup": false,
+          "name": "Golf",
+          "type": "sport",
+        },
+        Object {
+          "id": 15,
+          "isGroup": false,
+          "name": "Handball",
+          "type": "sport",
+        },
+        Object {
+          "id": 16,
+          "isGroup": false,
+          "name": "Ice Hockey",
+          "type": "sport",
+        },
+        Object {
+          "id": 17,
+          "isGroup": false,
+          "name": "Mixed Martial Arts (MMA)",
+          "type": "sport",
+        },
+        Object {
+          "id": 18,
+          "isGroup": false,
+          "name": "Motorsport",
+          "type": "sport",
+        },
+        Object {
+          "id": 19,
+          "isGroup": false,
+          "name": "Netball",
+          "type": "sport",
+        },
+        Object {
+          "id": 20,
+          "isGroup": false,
+          "name": "Rugby League",
+          "type": "sport",
+        },
+        Object {
+          "id": 21,
+          "isGroup": false,
+          "name": "Rugby Union / Rugby",
+          "type": "sport",
+        },
+        Object {
+          "id": 22,
+          "isGroup": false,
+          "name": "Sailing",
+          "type": "sport",
+        },
+        Object {
+          "id": 23,
+          "isGroup": false,
+          "name": "Snooker",
+          "type": "sport",
+        },
+        Object {
+          "id": 24,
+          "isGroup": false,
+          "name": "Surfing",
+          "type": "sport",
+        },
+        Object {
+          "id": 25,
+          "isGroup": false,
+          "name": "Swimming",
+          "type": "sport",
+        },
+        Object {
+          "id": 27,
+          "isGroup": false,
+          "name": "Tennis",
+          "type": "sport",
+        },
+        Object {
+          "id": 28,
+          "isGroup": false,
+          "name": "Triathlon",
+          "type": "sport",
+        },
+        Object {
+          "id": 29,
+          "isGroup": false,
+          "name": "Volleyball",
+          "type": "sport",
+        },
+        Object {
+          "id": 30,
+          "isGroup": false,
+          "name": "Winter Sports",
+          "type": "sport",
+        },
+      ]
+    }
+  />
+  <FlyoutButton
+    className="pt-3"
+    label="Benchmark"
+    onItemSelected={[Function]}
+    options={
+      Array [
+        Object {
+          "id": 0,
+          "isGroup": false,
+          "name": "All Sports Fans",
+        },
+        Object {
+          "id": 1,
+          "name": "All Football / Soccer Fans",
+        },
+      ]
+    }
+  />
+  <div
+    className="pl-3 pt-1 pb-3"
+  >
+    All Sports Fans
+  </div>
+  <div
+    className="filters"
+  >
+    <h5
+      className="text-center"
+    >
+      SEGMENTATION
+    </h5>
+    <div>
+      <FlyoutButton
+        disabled={false}
+        label="Saved Segmentation"
+        onItemSelected={[Function]}
+        options={
+          Array [
+            Object {
+              "id": 0,
+              "name": "hey there",
+            },
+          ]
+        }
+      />
+      <div
+        className="pl-3 pt-1 pb-3"
+      >
+        None
+      </div>
+      <FlyoutButton
+        label="Country"
+        onItemSelected={[Function]}
+        options={
+          Array [
+            Object {
+              "id": 1,
+              "isGroup": true,
+              "name": "All Countries",
+            },
+            Object {
+              "id": 3,
+              "isGroup": false,
+              "name": "Finland",
+            },
+            Object {
+              "id": 4,
+              "isGroup": false,
+              "name": "Canada",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "id": 4,
+                  "isGroup": true,
+                  "name": "All USA",
+                },
+                Object {
+                  "id": 5,
+                  "isGroup": false,
+                  "name": "Atlanta",
+                },
+                Object {
+                  "id": 6,
+                  "isGroup": false,
+                  "name": "Chicago",
+                },
+                Object {
+                  "id": 7,
+                  "isGroup": false,
+                  "name": "Seattle",
+                },
+              ],
+              "id": 5,
+              "isGroup": false,
+              "name": "United States",
+            },
+          ]
+        }
+      />
+      <div
+        className="pl-3 pt-1 pb-3"
+      >
+        All Countries
+      </div>
+    </div>
+  </div>
+  <div
+    className="text-center"
+  >
+    <h6
+      className="pl-3 mt-3 pb-1 text-left"
+    >
+      Age & Gender
+    </h6>
+    <div
+      className="genderColumns"
+    >
+      <div>
+        Men
+        <FilterButton
+          key="0"
+          name="men_age"
+          onChange={[Function]}
+          value={0}
+          values={
+            Array [
+              0,
+              1,
+              2,
+            ]
+          }
+        >
+          18-29
+        </FilterButton>
+        <FilterButton
+          key="1"
+          name="men_age"
+          onChange={[Function]}
+          value={1}
+          values={
+            Array [
+              0,
+              1,
+              2,
+            ]
+          }
+        >
+          30-59
+        </FilterButton>
+        <FilterButton
+          key="2"
+          name="men_age"
+          onChange={[Function]}
+          value={2}
+          values={
+            Array [
+              0,
+              1,
+              2,
+            ]
+          }
+        >
+          60+
+        </FilterButton>
+      </div>
+      <div>
+        Women
+        <FilterButton
+          key="0"
+          name="women_age"
+          onChange={[Function]}
+          value={0}
+          values={
+            Array [
+              0,
+              1,
+              2,
+            ]
+          }
+        >
+          18-29
+        </FilterButton>
+        <FilterButton
+          key="1"
+          name="women_age"
+          onChange={[Function]}
+          value={1}
+          values={
+            Array [
+              0,
+              1,
+              2,
+            ]
+          }
+        >
+          30-59
+        </FilterButton>
+        <FilterButton
+          key="2"
+          name="women_age"
+          onChange={[Function]}
+          value={2}
+          values={
+            Array [
+              0,
+              1,
+              2,
+            ]
+          }
+        >
+          60+
+        </FilterButton>
+      </div>
+    </div>
+  </div>
+  <div
+    className="text-center"
+  >
+    <h6
+      className="pl-3 mt-3 pb-1 text-left"
+    >
+      Income
+    </h6>
+    <div
+      className="incomeButtons"
+    >
+      <FilterButton
+        key="0"
+        name="income"
+        onChange={[Function]}
+        value={0}
+        values={
+          Array [
+            0,
+            1,
+            2,
+          ]
+        }
+      >
+        $
+      </FilterButton>
+      <FilterButton
+        key="1"
+        name="income"
+        onChange={[Function]}
+        value={1}
+        values={
+          Array [
+            0,
+            1,
+            2,
+          ]
+        }
+      >
+        $$
+      </FilterButton>
+      <FilterButton
+        key="2"
+        name="income"
+        onChange={[Function]}
+        value={2}
+        values={
+          Array [
+            0,
+            1,
+            2,
+          ]
+        }
+      >
+        $$$
+      </FilterButton>
+    </div>
+  </div>
+  <div
+    className="text-center"
+  >
+    <h6
+      className="pl-3 mt-3 pb-1 text-left"
+    >
+      Kids in Household
+    </h6>
+    <div
+      className="incomeButtons"
+    >
+      <FilterButton
+        key="0"
+        name="kids"
+        onChange={[Function]}
+        value={0}
+        values={
+          Array [
+            0,
+            1,
+          ]
+        }
+      >
+        Kids
+      </FilterButton>
+      <FilterButton
+        key="1"
+        name="kids"
+        onChange={[Function]}
+        value={1}
+        values={
+          Array [
+            0,
+            1,
+          ]
+        }
+      >
+        No Kids
+      </FilterButton>
+    </div>
+  </div>
+  <div
+    className="text-center"
+  >
+    <h6
+      className="pl-3 mt-3 pb-1 text-left"
+    >
+      Interest Level
+    </h6>
+    <div
+      className="interestButtons"
+    >
+      <FilterButton
+        key="0"
+        name="interest"
+        onChange={[Function]}
+        value={0}
+        values={
+          Array [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+          ]
+        }
+      >
+        1
+      </FilterButton>
+      <FilterButton
+        key="1"
+        name="interest"
+        onChange={[Function]}
+        value={1}
+        values={
+          Array [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+          ]
+        }
+      >
+        2
+      </FilterButton>
+      <FilterButton
+        key="2"
+        name="interest"
+        onChange={[Function]}
+        value={2}
+        values={
+          Array [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+          ]
+        }
+      >
+        3
+      </FilterButton>
+      <FilterButton
+        key="3"
+        name="interest"
+        onChange={[Function]}
+        value={3}
+        values={
+          Array [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+          ]
+        }
+      >
+        4
+      </FilterButton>
+      <FilterButton
+        key="4"
+        name="interest"
+        onChange={[Function]}
+        value={4}
+        values={
+          Array [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+          ]
+        }
+      >
+        5
+      </FilterButton>
+    </div>
+    <div
+      className="interestContainer"
+    >
+      <div
+        className="notInterested"
+      >
+        Not Interested
+      </div>
+      <div
+        className="veryInterested"
+      >
+        Very Interested
+      </div>
+    </div>
+  </div>
+  <div
+    className="pt-3 text-center mt-3"
+  >
+    <SaveFilter
+      onSave={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`Components FilterBar should update state on income filter change 1`] = `
+Array [
+  <FilterButton
+    key="0"
+    name="income"
+    onChange={[Function]}
+    value={0}
+    values={
+      Array [
+        1,
+        2,
+      ]
+    }
+  >
+    <ForwardRef(Bootstrap(Button))
+      active={false}
+      className="btn-outline-primary button"
+      onClick={[Function]}
+    >
+      <Button
+        active={false}
+        bsPrefix="btn"
+        className="btn-outline-primary button"
+        disabled={false}
+        innerRef={null}
+        onClick={[Function]}
+        type="button"
+        variant="primary"
+      >
+        <button
+          className="btn-outline-primary button btn btn-primary"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          $
+        </button>
+      </Button>
+    </ForwardRef(Bootstrap(Button))>
+  </FilterButton>,
+  <FilterButton
+    key="1"
+    name="income"
+    onChange={[Function]}
+    value={1}
+    values={
+      Array [
+        1,
+        2,
+      ]
+    }
+  >
+    <ForwardRef(Bootstrap(Button))
+      active={true}
+      className="btn-outline-primary button"
+      onClick={[Function]}
+    >
+      <Button
+        active={true}
+        bsPrefix="btn"
+        className="btn-outline-primary button"
+        disabled={false}
+        innerRef={null}
+        onClick={[Function]}
+        type="button"
+        variant="primary"
+      >
+        <button
+          className="btn-outline-primary button btn active btn-primary"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          $$
+        </button>
+      </Button>
+    </ForwardRef(Bootstrap(Button))>
+  </FilterButton>,
+  <FilterButton
+    key="2"
+    name="income"
+    onChange={[Function]}
+    value={2}
+    values={
+      Array [
+        1,
+        2,
+      ]
+    }
+  >
+    <ForwardRef(Bootstrap(Button))
+      active={true}
+      className="btn-outline-primary button"
+      onClick={[Function]}
+    >
+      <Button
+        active={true}
+        bsPrefix="btn"
+        className="btn-outline-primary button"
+        disabled={false}
+        innerRef={null}
+        onClick={[Function]}
+        type="button"
+        variant="primary"
+      >
+        <button
+          className="btn-outline-primary button btn active btn-primary"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          $$$
+        </button>
+      </Button>
+    </ForwardRef(Bootstrap(Button))>
+  </FilterButton>,
+]
+`;
+
+exports[`Components FilterBar should update state on kids filter change 1`] = `
+Array [
+  <FilterButton
+    key="0"
+    name="kids"
+    onChange={[Function]}
+    value={0}
+    values={
+      Array [
+        1,
+      ]
+    }
+  >
+    <ForwardRef(Bootstrap(Button))
+      active={false}
+      className="btn-outline-primary button"
+      onClick={[Function]}
+    >
+      <Button
+        active={false}
+        bsPrefix="btn"
+        className="btn-outline-primary button"
+        disabled={false}
+        innerRef={null}
+        onClick={[Function]}
+        type="button"
+        variant="primary"
+      >
+        <button
+          className="btn-outline-primary button btn btn-primary"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          Kids
+        </button>
+      </Button>
+    </ForwardRef(Bootstrap(Button))>
+  </FilterButton>,
+  <FilterButton
+    key="1"
+    name="kids"
+    onChange={[Function]}
+    value={1}
+    values={
+      Array [
+        1,
+      ]
+    }
+  >
+    <ForwardRef(Bootstrap(Button))
+      active={true}
+      className="btn-outline-primary button"
+      onClick={[Function]}
+    >
+      <Button
+        active={true}
+        bsPrefix="btn"
+        className="btn-outline-primary button"
+        disabled={false}
+        innerRef={null}
+        onClick={[Function]}
+        type="button"
+        variant="primary"
+      >
+        <button
+          className="btn-outline-primary button btn active btn-primary"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          No Kids
+        </button>
+      </Button>
+    </ForwardRef(Bootstrap(Button))>
+  </FilterButton>,
+]
+`;
+
+exports[`Components FilterBar should update state on men gender filter change 1`] = `
+Array [
+  <FilterButton
+    key="0"
+    name="men_age"
+    onChange={[Function]}
+    value={0}
+    values={
+      Array [
+        1,
+        2,
+      ]
+    }
+  >
+    <ForwardRef(Bootstrap(Button))
+      active={false}
+      className="btn-outline-primary button"
+      onClick={[Function]}
+    >
+      <Button
+        active={false}
+        bsPrefix="btn"
+        className="btn-outline-primary button"
+        disabled={false}
+        innerRef={null}
+        onClick={[Function]}
+        type="button"
+        variant="primary"
+      >
+        <button
+          className="btn-outline-primary button btn btn-primary"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          18-29
+        </button>
+      </Button>
+    </ForwardRef(Bootstrap(Button))>
+  </FilterButton>,
+  <FilterButton
+    key="1"
+    name="men_age"
+    onChange={[Function]}
+    value={1}
+    values={
+      Array [
+        1,
+        2,
+      ]
+    }
+  >
+    <ForwardRef(Bootstrap(Button))
+      active={true}
+      className="btn-outline-primary button"
+      onClick={[Function]}
+    >
+      <Button
+        active={true}
+        bsPrefix="btn"
+        className="btn-outline-primary button"
+        disabled={false}
+        innerRef={null}
+        onClick={[Function]}
+        type="button"
+        variant="primary"
+      >
+        <button
+          className="btn-outline-primary button btn active btn-primary"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          30-59
+        </button>
+      </Button>
+    </ForwardRef(Bootstrap(Button))>
+  </FilterButton>,
+  <FilterButton
+    key="2"
+    name="men_age"
+    onChange={[Function]}
+    value={2}
+    values={
+      Array [
+        1,
+        2,
+      ]
+    }
+  >
+    <ForwardRef(Bootstrap(Button))
+      active={true}
+      className="btn-outline-primary button"
+      onClick={[Function]}
+    >
+      <Button
+        active={true}
+        bsPrefix="btn"
+        className="btn-outline-primary button"
+        disabled={false}
+        innerRef={null}
+        onClick={[Function]}
+        type="button"
+        variant="primary"
+      >
+        <button
+          className="btn-outline-primary button btn active btn-primary"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          60+
+        </button>
+      </Button>
+    </ForwardRef(Bootstrap(Button))>
+  </FilterButton>,
+]
+`;
+
+exports[`Components FilterBar should update state on women gender filter change 1`] = `
+Array [
+  <FilterButton
+    key="0"
+    name="women_age"
+    onChange={[Function]}
+    value={0}
+    values={
+      Array [
+        1,
+        2,
+      ]
+    }
+  >
+    <ForwardRef(Bootstrap(Button))
+      active={false}
+      className="btn-outline-primary button"
+      onClick={[Function]}
+    >
+      <Button
+        active={false}
+        bsPrefix="btn"
+        className="btn-outline-primary button"
+        disabled={false}
+        innerRef={null}
+        onClick={[Function]}
+        type="button"
+        variant="primary"
+      >
+        <button
+          className="btn-outline-primary button btn btn-primary"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          18-29
+        </button>
+      </Button>
+    </ForwardRef(Bootstrap(Button))>
+  </FilterButton>,
+  <FilterButton
+    key="1"
+    name="women_age"
+    onChange={[Function]}
+    value={1}
+    values={
+      Array [
+        1,
+        2,
+      ]
+    }
+  >
+    <ForwardRef(Bootstrap(Button))
+      active={true}
+      className="btn-outline-primary button"
+      onClick={[Function]}
+    >
+      <Button
+        active={true}
+        bsPrefix="btn"
+        className="btn-outline-primary button"
+        disabled={false}
+        innerRef={null}
+        onClick={[Function]}
+        type="button"
+        variant="primary"
+      >
+        <button
+          className="btn-outline-primary button btn active btn-primary"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          30-59
+        </button>
+      </Button>
+    </ForwardRef(Bootstrap(Button))>
+  </FilterButton>,
+  <FilterButton
+    key="2"
+    name="women_age"
+    onChange={[Function]}
+    value={2}
+    values={
+      Array [
+        1,
+        2,
+      ]
+    }
+  >
+    <ForwardRef(Bootstrap(Button))
+      active={true}
+      className="btn-outline-primary button"
+      onClick={[Function]}
+    >
+      <Button
+        active={true}
+        bsPrefix="btn"
+        className="btn-outline-primary button"
+        disabled={false}
+        innerRef={null}
+        onClick={[Function]}
+        type="button"
+        variant="primary"
+      >
+        <button
+          className="btn-outline-primary button btn active btn-primary"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          60+
+        </button>
+      </Button>
+    </ForwardRef(Bootstrap(Button))>
+  </FilterButton>,
+]
+`;

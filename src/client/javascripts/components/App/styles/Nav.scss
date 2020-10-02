@@ -1,0 +1,27 @@
+@import "../../../../stylesheets/modules/theme.scss";
+
+.navBar {
+  height: 40px;
+  color: $darker-gray-color;
+  background-color: $nielsen-blue-color;
+
+  a {
+    color: $darker-gray-color;
+
+    &:visited {
+      color: $darker-gray-color;
+    }
+
+    &:hover {
+      color: $white-color;
+    }
+
+    &.selected {
+      color: $white-color;
+    }
+  }
+
+  input {
+    height: 30px;
+  }
+}

@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TooltipPopup Component Should show 1`] = `
+<div>
+  <Overlay
+    container={
+      TooltipPopup {
+        "context": Object {},
+        "onGlobalClick": [Function],
+        "popup": Object {
+          "current": null,
+        },
+        "props": Object {
+          "children": <div>
+            hi
+          </div>,
+          "onClickOutside": [MockFunction],
+          "target": Object {},
+        },
+        "refs": Object {},
+        "setState": [Function],
+        "state": Object {
+          "show": true,
+        },
+        "updater": Updater {
+          "_callbacks": Array [],
+          "_renderer": ReactShallowRenderer {
+            "_context": Object {},
+            "_element": <TooltipPopup
+              onClickOutside={[MockFunction]}
+              target={Object {}}
+            >
+              <div>
+                hi
+              </div>
+            </TooltipPopup>,
+            "_forcedUpdate": false,
+            "_instance": [Circular],
+            "_newState": null,
+            "_rendered": <div>
+              <Overlay
+                container={[Circular]}
+                placement="bottom"
+                rootClose={false}
+                show={false}
+                target={Object {}}
+                transition={[Function]}
+              >
+                <ForwardRef(Bootstrap(Popover))
+                  id="popover-positioned-bottom"
+                >
+                  <div>
+                    hi
+                  </div>
+                </ForwardRef(Bootstrap(Popover))>
+              </Overlay>
+            </div>,
+            "_rendering": false,
+            "_updater": [Circular],
+          },
+        },
+        Symbol(enzyme.__setState__): [Function],
+      }
+    }
+    placement="bottom"
+    rootClose={false}
+    show={false}
+    target={Object {}}
+    transition={[Function]}
+  >
+    <ForwardRef(Bootstrap(Popover))
+      id="popover-positioned-bottom"
+    >
+      <div>
+        hi
+      </div>
+    </ForwardRef(Bootstrap(Popover))>
+  </Overlay>
+</div>
+`;
+
+exports[`TooltipPopup Component Should show 2`] = `
+<div>
+  <Overlay
+    container={
+      TooltipPopup {
+        "context": Object {},
+        "onGlobalClick": [Function],
+        "popup": Object {
+          "current": null,
+        },
+        "props": Object {
+          "children": <div>
+            hi
+          </div>,
+          "onClickOutside": [MockFunction],
+          "show": true,
+          "target": Object {},
+        },
+        "refs": Object {},
+        "setState": [Function],
+        "state": Object {
+          "show": true,
+        },
+        "updater": Updater {
+          "_callbacks": Array [],
+          "_renderer": ReactShallowRenderer {
+            "_context": Object {},
+            "_element": <TooltipPopup
+              onClickOutside={[MockFunction]}
+              show={true}
+              target={Object {}}
+            >
+              <div>
+                hi
+              </div>
+            </TooltipPopup>,
+            "_forcedUpdate": false,
+            "_instance": [Circular],
+            "_newState": null,
+            "_rendered": <div>
+              <Overlay
+                container={[Circular]}
+                placement="bottom"
+                rootClose={false}
+                show={true}
+                target={Object {}}
+                transition={[Function]}
+              >
+                <ForwardRef(Bootstrap(Popover))
+                  id="popover-positioned-bottom"
+                >
+                  <div>
+                    hi
+                  </div>
+                </ForwardRef(Bootstrap(Popover))>
+              </Overlay>
+            </div>,
+            "_rendering": false,
+            "_updater": [Circular],
+          },
+        },
+        Symbol(enzyme.__setState__): [Function],
+      }
+    }
+    placement="bottom"
+    rootClose={false}
+    show={true}
+    target={Object {}}
+    transition={[Function]}
+  >
+    <ForwardRef(Bootstrap(Popover))
+      id="popover-positioned-bottom"
+    >
+      <div>
+        hi
+      </div>
+    </ForwardRef(Bootstrap(Popover))>
+  </Overlay>
+</div>
+`;

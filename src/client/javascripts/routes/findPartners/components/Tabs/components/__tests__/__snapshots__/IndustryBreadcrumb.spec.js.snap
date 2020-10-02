@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Industry Breadcrumb Component Should show 1`] = `
+<div
+  className="breadcrumb"
+>
+  <div>
+    <h5>
+      name
+    </h5>
+  </div>
+</div>
+`;
+
+exports[`Industry Breadcrumb Component Should show active type 1`] = `
+<div
+  className="breadcrumb"
+>
+  <div>
+    <h5>
+      name
+    </h5>
+  </div>
+  <div
+    className="breadCrumbLink"
+    key="3"
+  >
+    <Link
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/find_partners/industries/undefined/3"
+    >
+      a
+    </Link>
+  </div>
+  <div
+    className="breadCrumbLink"
+    key="1"
+  >
+    <Link
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/find_partners/industries/undefined/1"
+    >
+      first
+    </Link>
+  </div>
+  <div
+    className="breadCrumbLink"
+    key="2"
+  >
+    second
+  </div>
+</div>
+`;
+
+exports[`Industry Breadcrumb Component Should show with types 1`] = `
+<div
+  className="breadcrumb"
+>
+  <div>
+    <h5>
+      name
+    </h5>
+  </div>
+  <div
+    className="breadCrumbLink"
+    key="3"
+  >
+    a
+  </div>
+  <div
+    className="breadCrumbLink"
+    key="1"
+  >
+    <Link
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/find_partners/industries/undefined/1"
+    >
+      first
+    </Link>
+  </div>
+  <div
+    className="breadCrumbLink"
+    key="2"
+  >
+    <Link
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/find_partners/industries/undefined/2"
+    >
+      second
+    </Link>
+  </div>
+</div>
+`;

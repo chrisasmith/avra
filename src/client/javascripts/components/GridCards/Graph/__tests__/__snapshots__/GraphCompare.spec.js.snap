@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GraphCompare Component Should show 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="title"
+  >
+    title
+  </div>
+  <div
+    className="graph"
+  >
+    <div
+      className="lineContainer"
+      key="0"
+    >
+      <div>
+        <div
+          className="graphWrapper"
+        >
+          <div
+            className="graphLine first"
+            style={
+              Object {
+                "width": "80%",
+              }
+            }
+          />
+        </div>
+        <div
+          className="graphAmount first"
+        >
+          8
+        </div>
+      </div>
+    </div>
+    <div
+      className="lineContainer"
+      key="1"
+    >
+      <div>
+        <div
+          className="graphWrapper"
+        >
+          <div
+            className="graphLine"
+            style={
+              Object {
+                "width": "20%",
+              }
+            }
+          />
+        </div>
+        <div
+          className="graphAmount"
+        >
+          2
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`GraphCompare Component Should show edge cases 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="title"
+  >
+    title
+  </div>
+  <div
+    className="graph"
+  >
+    <div
+      className="lineContainer"
+      key="0"
+    >
+      <div>
+        <div
+          className="graphWrapper"
+        >
+          <div
+            className="graphLine first"
+            style={
+              Object {
+                "width": "0%",
+              }
+            }
+          />
+        </div>
+        <div
+          className="graphAmount first"
+        >
+          0
+          %
+        </div>
+      </div>
+    </div>
+    <div
+      className="lineContainer"
+      key="1"
+    >
+      <div>
+        <div
+          className="graphWrapper"
+        >
+          <div
+            className="graphLine"
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+          />
+        </div>
+        <div
+          className="graphAmount"
+        >
+          100
+          %
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`GraphCompare Component Should show percent 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="title"
+  >
+    title
+  </div>
+  <div
+    className="graph"
+  >
+    <div
+      className="lineContainer"
+      key="0"
+    >
+      <div>
+        <div
+          className="graphWrapper"
+        >
+          <div
+            className="graphLine first"
+            style={
+              Object {
+                "width": "80%",
+              }
+            }
+          />
+        </div>
+        <div
+          className="graphAmount first"
+        >
+          80
+          %
+        </div>
+      </div>
+    </div>
+    <div
+      className="lineContainer"
+      key="1"
+    >
+      <div>
+        <div
+          className="graphWrapper"
+        >
+          <div
+            className="graphLine"
+            style={
+              Object {
+                "width": "20%",
+              }
+            }
+          />
+        </div>
+        <div
+          className="graphAmount"
+        >
+          20
+          %
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

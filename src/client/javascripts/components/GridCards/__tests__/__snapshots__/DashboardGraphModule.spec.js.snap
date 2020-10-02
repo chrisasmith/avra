@@ -1,0 +1,621 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DashboardGraphModule Component Should expand 1`] = `
+<DashboardShellModule
+  isFetching={false}
+  onDownloadCSV={[Function]}
+  onDownloadImage={[Function]}
+  title="title"
+>
+  <div>
+    <div
+      className="graphWrapper"
+    >
+      <div
+        className="p-3 graphContainer"
+      >
+        <div
+          className="graphHolder"
+        >
+          <div>
+            <div>
+              <GraphCompare
+                key="0"
+                maxValue={80}
+                title="Russia"
+                type="COUNT"
+                values={
+                  Array [
+                    "80.00",
+                    "25.40",
+                  ]
+                }
+              />
+              <GraphCompare
+                key="1"
+                maxValue={80}
+                title="another"
+                type="COUNT"
+                values={
+                  Array [
+                    "80.00",
+                    "25.40",
+                  ]
+                }
+              />
+              <GraphCompare
+                key="2"
+                maxValue={80}
+                title="fifth"
+                type="COUNT"
+                values={
+                  Array [
+                    "80.00",
+                    "25.40",
+                  ]
+                }
+              />
+              <GraphCompare
+                key="3"
+                maxValue={80}
+                title="India"
+                type="COUNT"
+                values={
+                  Array [
+                    "35.10",
+                    "33.90",
+                  ]
+                }
+              />
+              <GraphCompare
+                key="4"
+                maxValue={80}
+                title="USA"
+                type="COUNT"
+                values={
+                  Array [
+                    "29.60",
+                    "25.40",
+                  ]
+                }
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="seeMoreLink"
+      >
+        <a
+          href="#"
+          onClick={[Function]}
+        >
+          See Less Results
+        </a>
+      </div>
+    </div>
+  </div>
+</DashboardShellModule>
+`;
+
+exports[`DashboardGraphModule Component Should show 1`] = `
+<DashboardShellModule
+  isFetching={false}
+  onDownloadCSV={[Function]}
+  onDownloadImage={[Function]}
+  title="title"
+>
+  <div>
+    <div
+      className="graphWrapper"
+    >
+      <div
+        className="p-3 graphContainer"
+      >
+        <div
+          className="graphHolder"
+        >
+          <div>
+            <div>
+              <GraphCompare
+                key="0"
+                maxValue={80}
+                title="Russia"
+                type="COUNT"
+                values={
+                  Array [
+                    "80.00",
+                    "25.40",
+                  ]
+                }
+              />
+              <GraphCompare
+                key="1"
+                maxValue={80}
+                title="India"
+                type="COUNT"
+                values={
+                  Array [
+                    "35.10",
+                    "33.90",
+                  ]
+                }
+              />
+              <GraphCompare
+                key="2"
+                maxValue={80}
+                title="USA"
+                type="COUNT"
+                values={
+                  Array [
+                    "29.60",
+                    "25.40",
+                  ]
+                }
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DashboardShellModule>
+`;
+
+exports[`DashboardGraphModule Component Should show expand button 1`] = `
+<DashboardShellModule
+  isFetching={false}
+  onDownloadCSV={[Function]}
+  onDownloadImage={[Function]}
+  title="title"
+>
+  <div>
+    <div
+      className="graphWrapper"
+    >
+      <div
+        className="p-3 graphContainer"
+      >
+        <div
+          className="graphHolder"
+        >
+          <div>
+            <div>
+              <GraphCompare
+                key="0"
+                maxValue={80}
+                title="Russia"
+                type="COUNT"
+                values={
+                  Array [
+                    "80.00",
+                    "25.40",
+                  ]
+                }
+              />
+              <GraphCompare
+                key="1"
+                maxValue={80}
+                title="another"
+                type="COUNT"
+                values={
+                  Array [
+                    "80.00",
+                    "25.40",
+                  ]
+                }
+              />
+              <GraphCompare
+                key="2"
+                maxValue={80}
+                title="fifth"
+                type="COUNT"
+                values={
+                  Array [
+                    "80.00",
+                    "25.40",
+                  ]
+                }
+              />
+              <GraphCompare
+                key="3"
+                maxValue={80}
+                title="India"
+                type="COUNT"
+                values={
+                  Array [
+                    "35.10",
+                    "33.90",
+                  ]
+                }
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="seeMoreLink"
+      >
+        <a
+          href="#"
+          onClick={[Function]}
+        >
+          See More Results
+        </a>
+      </div>
+    </div>
+  </div>
+</DashboardShellModule>
+`;
+
+exports[`DashboardGraphModule Component Should show loading 1`] = `
+<DashboardShellModule
+  isFetching={true}
+  title="title"
+/>
+`;
+
+exports[`DashboardGraphModule Component Should show percent 1`] = `
+<DashboardShellModule
+  isFetching={false}
+  onDownloadCSV={[Function]}
+  onDownloadImage={[Function]}
+  title="title"
+>
+  <div>
+    <div
+      className="graphWrapper"
+    >
+      <div
+        className="p-3 graphContainer"
+      >
+        <div
+          className="graphHolder"
+        >
+          <div>
+            <div>
+              <GraphCompare
+                key="0"
+                maxValue={100}
+                title="India"
+                type="PERCENT"
+                values={
+                  Array [
+                    "80",
+                    "70",
+                  ]
+                }
+              />
+              <GraphCompare
+                key="1"
+                maxValue={100}
+                title="USA"
+                type="PERCENT"
+                values={
+                  Array [
+                    "20",
+                    "30",
+                  ]
+                }
+              />
+              <GraphCompare
+                key="2"
+                maxValue={100}
+                title="Russia"
+                type="PERCENT"
+                values={
+                  Array [
+                    "10",
+                    "100",
+                  ]
+                }
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DashboardShellModule>
+`;
+
+exports[`DashboardGraphModule Component Should show titles 1`] = `
+<DashboardShellModule
+  isFetching={false}
+  onDownloadCSV={[Function]}
+  onDownloadImage={[Function]}
+  title="title"
+>
+  <div>
+    <div
+      className="graphWrapper"
+    >
+      <div
+        className="p-3 graphContainer"
+      >
+        <div
+          className="text-center pb-3"
+        >
+          description
+        </div>
+        <div
+          className="graphHolder"
+        >
+          <div
+            className="rotatedTitle"
+          >
+            <div
+              className="centered"
+            >
+              <em>
+                side title
+              </em>
+            </div>
+          </div>
+          <div>
+            <div>
+              <GraphCompare
+                key="0"
+                maxValue={100}
+                title="India"
+                type="PERCENT"
+                values={
+                  Array [
+                    "80",
+                    "70",
+                  ]
+                }
+              />
+              <GraphCompare
+                key="1"
+                maxValue={100}
+                title="USA"
+                type="PERCENT"
+                values={
+                  Array [
+                    "20",
+                    "30",
+                  ]
+                }
+              />
+              <GraphCompare
+                key="2"
+                maxValue={100}
+                title="Russia"
+                type="PERCENT"
+                values={
+                  Array [
+                    "10",
+                    "100",
+                  ]
+                }
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="keys"
+        >
+          <div>
+            <div
+              className="valueKey"
+            />
+            <div>
+              value title
+            </div>
+          </div>
+          <div>
+            <div
+              className="benchKey"
+            />
+            <div>
+              Benchmark Title
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DashboardShellModule>
+`;
+
+exports[`DashboardGraphModule Component Should show total 1`] = `
+<DashboardShellModule
+  isFetching={false}
+  onDownloadCSV={[Function]}
+  onDownloadImage={[Function]}
+  title="title"
+>
+  <div>
+    <div
+      className="p-3 text-center  totalContainer"
+    >
+      <div
+        className="pb-3"
+      >
+        Total
+      </div>
+      <h1>
+        0
+      </h1>
+      <div>
+        <em />
+      </div>
+    </div>
+    <div
+      className="graphWrapper"
+    >
+      <div
+        className="p-3 graphContainer"
+      >
+        <div
+          className="text-center pb-3"
+        >
+          description
+        </div>
+        <div
+          className="graphHolder"
+        >
+          <div
+            className="rotatedTitle"
+          >
+            <div
+              className="centered"
+            >
+              <em>
+                side title
+              </em>
+            </div>
+          </div>
+          <div>
+            <div>
+              <GraphCompare
+                key="0"
+                maxValue={80}
+                title="Russia"
+                type="COUNT"
+                values={
+                  Array [
+                    "80.00",
+                    "25.40",
+                  ]
+                }
+              />
+              <GraphCompare
+                key="1"
+                maxValue={80}
+                title="India"
+                type="COUNT"
+                values={
+                  Array [
+                    "35.10",
+                    "33.90",
+                  ]
+                }
+              />
+              <GraphCompare
+                key="2"
+                maxValue={80}
+                title="USA"
+                type="COUNT"
+                values={
+                  Array [
+                    "29.60",
+                    "25.40",
+                  ]
+                }
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="keys"
+        >
+          <div>
+            <div
+              className="valueKey"
+            />
+            <div>
+              value title
+            </div>
+          </div>
+          <div>
+            <div
+              className="benchKey"
+            />
+            <div>
+              Benchmark Title
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DashboardShellModule>
+`;
+
+exports[`DashboardGraphModule Component Should shrink 1`] = `
+<DashboardShellModule
+  isFetching={false}
+  onDownloadCSV={[Function]}
+  onDownloadImage={[Function]}
+  title="title"
+>
+  <div>
+    <div
+      className="graphWrapper"
+    >
+      <div
+        className="p-3 graphContainer"
+      >
+        <div
+          className="graphHolder"
+        >
+          <div>
+            <div>
+              <GraphCompare
+                key="0"
+                maxValue={80}
+                title="Russia"
+                type="COUNT"
+                values={
+                  Array [
+                    "80.00",
+                    "25.40",
+                  ]
+                }
+              />
+              <GraphCompare
+                key="1"
+                maxValue={80}
+                title="another"
+                type="COUNT"
+                values={
+                  Array [
+                    "80.00",
+                    "25.40",
+                  ]
+                }
+              />
+              <GraphCompare
+                key="2"
+                maxValue={80}
+                title="fifth"
+                type="COUNT"
+                values={
+                  Array [
+                    "80.00",
+                    "25.40",
+                  ]
+                }
+              />
+              <GraphCompare
+                key="3"
+                maxValue={80}
+                title="India"
+                type="COUNT"
+                values={
+                  Array [
+                    "35.10",
+                    "33.90",
+                  ]
+                }
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="seeMoreLink"
+      >
+        <a
+          href="#"
+          onClick={[Function]}
+        >
+          See More Results
+        </a>
+      </div>
+    </div>
+  </div>
+</DashboardShellModule>
+`;

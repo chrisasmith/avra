@@ -1,0 +1,28 @@
+@import '../../../../stylesheets/modules/theme.scss';
+
+.flyoutButton {
+  background-color: #60636f;
+  color: #fff;
+  height: 34px;
+  line-height: 34px;
+  font-size: 16px;
+  cursor: pointer;
+
+  &.open, &:hover {
+    background-color: lighten(#60636f, 40%);
+    color: #1d1f2a;
+  }
+
+  &.disabled {
+    background-color: #c0c0c0;
+    cursor: hand;
+
+    pointer-events: none;
+  }
+}
+
+.rightArrow {
+  float: right;
+  line-height: 34px;
+  margin-right: 16px;
+}

@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Overview Tab should show 1`] = `
+<div
+  className="grid"
+>
+  <div
+    className="breadCrumb"
+  >
+    <FilterBreadCrumb
+      filter={
+        Object {
+          "benchmark": Object {
+            "name": "benchmark",
+          },
+          "property": Object {
+            "name": "property",
+          },
+        }
+      }
+    />
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="row row-grid"
+    >
+      <div
+        className="col-6"
+      >
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "description": "Which of the following products do you currently own or have you bought recently?",
+                "title": "Top Products",
+              },
+              "dataKey": "top_partners",
+              "type": "INDEX",
+            }
+          }
+          data={null}
+          isFetching={false}
+          key="0"
+        />
+      </div>
+      <div
+        className="col-6"
+      >
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "description": "Which of the following services do you currently use or have you used in the last 12 months? And which do you intend to use again in the next 12 months?",
+                "title": "Top Services",
+              },
+              "dataKey": "top_services",
+              "type": "INDEX",
+            }
+          }
+          data={null}
+          isFetching={false}
+          key="0"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Overview Tab should show loading 1`] = `
+<div
+  className="grid"
+>
+  <div
+    className="breadCrumb"
+  >
+    <FilterBreadCrumb
+      filter={
+        Object {
+          "benchmark": Object {
+            "name": "benchmark",
+          },
+          "property": Object {
+            "name": "property",
+          },
+        }
+      }
+    />
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="row row-grid"
+    >
+      <div
+        className="col-6"
+      >
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "description": "Which of the following products do you currently own or have you bought recently?",
+                "title": "Top Products",
+              },
+              "dataKey": "top_partners",
+              "type": "INDEX",
+            }
+          }
+          data={null}
+          isFetching={true}
+          key="0"
+        />
+      </div>
+      <div
+        className="col-6"
+      >
+        <GridCard
+          card={
+            Object {
+              "cardData": Object {
+                "description": "Which of the following services do you currently use or have you used in the last 12 months? And which do you intend to use again in the next 12 months?",
+                "title": "Top Services",
+              },
+              "dataKey": "top_services",
+              "type": "INDEX",
+            }
+          }
+          data={null}
+          isFetching={true}
+          key="0"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

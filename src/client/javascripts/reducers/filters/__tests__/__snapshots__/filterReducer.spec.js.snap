@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter reducer should handle UPDATE_FILTER 1`] = `
+Object {
+  "filter": Object {
+    "type": true,
+  },
+}
+`;

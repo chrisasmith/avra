@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IndexGraph Component Should show 1`] = `
+<div
+  className="container"
+>
+  <ReactTooltip
+    insecure={true}
+    resizeHide={true}
+    type="info"
+    wrapper="div"
+  />
+  <div
+    className="title"
+  >
+    title
+  </div>
+  <div
+    className="graph"
+  >
+    <div
+      className="lineContainer"
+    >
+      <div>
+        <div
+          className="graphWrapper"
+          data-tip="tip"
+        >
+          <div
+            className="graphLine"
+            style={
+              Object {
+                "width": "55.00000000000001%",
+              }
+            }
+          />
+          <div
+            className="graphLine first"
+            style={
+              Object {
+                "maxWidth": "50%",
+                "width": "55.00000000000001%",
+              }
+            }
+          />
+          <div
+            className="graphAmount first"
+          >
+            1.10
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`IndexGraph Component Should show less than 0 1`] = `
+<div
+  className="container"
+>
+  <ReactTooltip
+    insecure={true}
+    resizeHide={true}
+    type="info"
+    wrapper="div"
+  />
+  <div
+    className="title"
+  >
+    title
+  </div>
+  <div
+    className="graph"
+  >
+    <div
+      className="lineContainer"
+    >
+      <div>
+        <div
+          className="graphWrapper"
+          data-tip="tip"
+        >
+          <div
+            className="graphLine"
+            style={
+              Object {
+                "width": "10%",
+              }
+            }
+          />
+          <div
+            className="graphLine first"
+            style={
+              Object {
+                "maxWidth": "50%",
+                "width": "10%",
+              }
+            }
+          />
+          <div
+            className="graphAmount first"
+          >
+            0.20
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`IndexGraph Component Should show with a large max 1`] = `
+<div
+  className="container"
+>
+  <ReactTooltip
+    insecure={true}
+    resizeHide={true}
+    type="info"
+    wrapper="div"
+  />
+  <div
+    className="title"
+  >
+    title
+  </div>
+  <div
+    className="graph"
+  >
+    <div
+      className="lineContainer"
+    >
+      <div>
+        <div
+          className="graphWrapper"
+          data-tip="tip"
+        >
+          <div
+            className="graphLine"
+            style={
+              Object {
+                "width": "3.3333333333333335%",
+              }
+            }
+          />
+          <div
+            className="graphLine first"
+            style={
+              Object {
+                "maxWidth": "16.666666666666668%",
+                "width": "3.3333333333333335%",
+              }
+            }
+          />
+          <div
+            className="graphAmount first"
+          >
+            0.20
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

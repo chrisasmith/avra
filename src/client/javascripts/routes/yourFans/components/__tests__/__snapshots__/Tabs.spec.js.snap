@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs Component Should show 1`] = `
+<ul
+  className="nav nav-tabs"
+>
+  <li
+    className="nav-item"
+  >
+    <Link
+      className="nav-link"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/your_fans"
+    >
+      Overview
+    </Link>
+  </li>
+  <li
+    className="nav-item"
+  >
+    <Link
+      className="nav-link"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/your_fans/interest_profile"
+    >
+      Interest Profile
+    </Link>
+  </li>
+  <li
+    className="nav-item"
+  >
+    <Link
+      className="nav-link"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/your_fans/media_profile"
+    >
+      Media Profile
+    </Link>
+  </li>
+  <li
+    className="nav-item"
+  >
+    <Link
+      className="nav-link"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+    >
+      Social Media
+    </Link>
+  </li>
+  <li
+    className="nav-item"
+  >
+    <Link
+      className="nav-link"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+    >
+      Segmentation
+    </Link>
+  </li>
+  <li
+    className="nav-item"
+  >
+    <Link
+      className="nav-link"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+    >
+      Trends
+    </Link>
+  </li>
+</ul>
+`;
+
+exports[`Tabs Component Should show active tab 1`] = `
+<ul
+  className="nav nav-tabs"
+>
+  <li
+    className="nav-item"
+  >
+    <Link
+      className="nav-link"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/your_fans"
+    >
+      Overview
+    </Link>
+  </li>
+  <li
+    className="nav-item"
+  >
+    <Link
+      className="nav-link active"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/your_fans/interest_profile"
+    >
+      Interest Profile
+    </Link>
+  </li>
+  <li
+    className="nav-item"
+  >
+    <Link
+      className="nav-link"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to="/your_fans/media_profile"
+    >
+      Media Profile
+    </Link>
+  </li>
+  <li
+    className="nav-item"
+  >
+    <Link
+      className="nav-link"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+    >
+      Social Media
+    </Link>
+  </li>
+  <li
+    className="nav-item"
+  >
+    <Link
+      className="nav-link"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+    >
+      Segmentation
+    </Link>
+  </li>
+  <li
+    className="nav-item"
+  >
+    <Link
+      className="nav-link"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+    >
+      Trends
+    </Link>
+  </li>
+</ul>
+`;

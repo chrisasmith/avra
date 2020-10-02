@@ -1,0 +1,69 @@
+@import '../../../../../stylesheets/modules/theme.scss';
+
+.container {
+  display: flex;
+  position: relative;
+  margin-bottom: 14px;
+  align-items: center;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.graphWrapper {
+  width: calc(100% - 35px);
+  white-space: nowrap;
+  position: relative;
+}
+
+.title {
+  width: 116px;
+  font-size: 15px;
+  font-size: 14px;
+  line-height: 14px;
+  padding-right: 4px;
+}
+
+.graph {
+  flex-grow: 1;
+}
+
+.graphLine {
+  background-color: #06b92d;
+  height: 15px;
+  margin-top: 0px;
+  display: inline-block;
+
+  &.first {
+    background-color: #d3dcf6;
+    left: 0;
+    position: absolute;
+  }
+}
+
+.graphAmount {
+  font-size: 14px;
+  line-height: 15px;
+  vertical-align: top;
+  margin-left: 8px;
+  display: inline-block;
+
+  &.first {
+    font-weight: bold;
+  }
+}
+
+.lineContainer {
+  height: 15px;
+  line-height: 15px;
+}
+
+.tooltip {
+  border: 1px solid #c0c0c0;
+    &:after {
+      border-top-color: #000 !important;
+      border-top-style: solid !important;
+      border-top-width: 6px !important;
+    }
+}

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components FlyoutButton should render 1`] = `
+<div>
+  <div
+    className="pl-3 flyoutButton"
+    onClick={[Function]}
+  >
+    <i
+      className="fa fa-chevron-right rightArrow"
+    />
+    label
+  </div>
+</div>
+`;
+
+exports[`Components FlyoutButton should render disabled 1`] = `
+<div>
+  <div
+    className="pl-3 flyoutButton disabled"
+    onClick={[Function]}
+  >
+    <i
+      className="fa fa-chevron-right rightArrow"
+    />
+    label
+  </div>
+</div>
+`;

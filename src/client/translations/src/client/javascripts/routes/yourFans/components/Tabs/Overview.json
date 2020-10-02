@@ -1,0 +1,46 @@
+[
+  {
+    "id": "your_fans.tab.overview.fan_population",
+    "defaultMessage": "Fan Population"
+  },
+  {
+    "id": "your_fans.tab.overview.fp_by_region",
+    "defaultMessage": "By Region"
+  },
+  {
+    "id": "your_fans.tab.overview.fp_region",
+    "defaultMessage": "Region"
+  },
+  {
+    "id": "your_fans.tab.overview.use_social_platform",
+    "defaultMessage": "Do you use any of the following social media platforms?"
+  },
+  {
+    "id": "your_fans.tab.overview.social_platform",
+    "defaultMessage": "Social media platforms"
+  },
+  {
+    "id": "your_fans.tab.overview.favorite_team",
+    "defaultMessage": "Favorite Team"
+  },
+  {
+    "id": "your_fans.tab.overview.media_behavior",
+    "defaultMessage": "Media Behavior"
+  },
+  {
+    "id": "your_fans.tab.overview.how_often_use_sm",
+    "defaultMessage": "How often do you use the following media for news about sports?"
+  },
+  {
+    "id": "your_fans.tab.overview.media",
+    "defaultMessage": "Media"
+  },
+  {
+    "id": "your_fans.tab.overview.fan_engagement",
+    "defaultMessage": "Fan Engagement"
+  },
+  {
+    "id": "your_fans.tab.overview.watch_attend_listen",
+    "defaultMessage": "Have you watched, attended or listened to events in the last 12 months?"
+  }
+]

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FindPartners actions should call get find partners data 1`] = `
+Array [
+  Object {
+    "request": Object {},
+    "type": "GET_FIND_PARTNERS_PAGE_REQUEST",
+  },
+  Object {
+    "request": Object {},
+    "response": Object {
+      "data": Array [],
+    },
+    "type": "GET_FIND_PARTNERS_PAGE_SUCCESS",
+  },
+]
+`;
